@@ -1,0 +1,49 @@
+//Team style
+.team-section{
+    position: relative;
+    .start-cry{
+        position: absolute;
+        bottom: 38px;
+        right: 0;
+        z-index: -1;
+    }
+}
+.team-items{
+    text-align: center;
+    transition: all 0.4s;
+    .team-thumb{
+        display: block;
+        margin: 0 auto 18px;
+        max-width: 320px;
+        img{
+            width: 100%;
+        }
+    }
+    h3{
+        font-size: 24px;
+        font-weight: 700;
+        color: $black;
+        font-family: $heading-font;
+        line-height: 28px;
+        margin-bottom: 0px;
+        display: block;
+        a{
+            line-height: 29px;
+            display: block;
+        }
+    }
+    span{
+        font-size: 15px;
+        font-weight: 400;
+        color: $pra;
+    }
+    &:hover{
+        transform: translateY(5px);
+        h4{
+            a{
+                color: $p1-clr;
+            }
+        }
+    }
+}
+//Team style

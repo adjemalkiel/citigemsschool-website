@@ -1,0 +1,12 @@
+node_modules
+.next
+.git
+.agents
+graphify-out
+*.md
+AGENTS.md
+skills-lock.json
+.env*
+Dockerfile
+compose*.yml
+.dockerignore

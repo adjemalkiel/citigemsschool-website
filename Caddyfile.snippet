@@ -1,0 +1,8 @@
+citigemsschool.devopsflows.com {
+	encode gzip
+	reverse_proxy 127.0.0.1:3030 {
+		header_up X-Forwarded-Proto https
+		header_up Host {host}
+		header_up X-Real-IP {remote_host}
+	}
+}

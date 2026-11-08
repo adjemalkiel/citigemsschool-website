@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Programmes · Citigems Bilingual School</title>
+    <meta
+      name="description"
+      content="Programmes Citigems : Pre-Nursery au Basic 6 — Nursery / Maternelle et Primary / Primaire."
+    />
+    <link rel="icon" href="public/citigems-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand-lockup" href="index.html">
+        <img src="public/citigems-logo.png" alt="" width="42" height="42" />
+        <span data-i18n="brand.name">Citigems Bilingual School</span>
+      </a>
+      <nav class="nav-main" aria-label="Main">
+        <a href="index.html" data-i18n="nav.home">Accueil</a>
+        <a href="programmes.html" aria-current="page" data-i18n="nav.programmes">Programmes</a>
+        <a href="admissions.html" data-i18n="nav.admissions">Admissions &amp; frais</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a
+          class="btn btn-espace"
+          href="https://cs.devopsflows.com/login?redirect-to=/edu-portal"
+          data-i18n="nav.portal"
+          >Espace école</a
+        >
+      </div>
+    </header>
+
+    <header class="page-hero">
+      <h1 data-i18n="prog.title">Programmes</h1>
+      <p data-i18n="prog.lede">Parcours bilingue du Pre-Nursery (PN) au Basic 6 (B6).</p>
+    </header>
+
+    <main id="main" class="section" style="padding-top: 0">
+      <div class="level-block">
+        <h3 data-i18n="prog.nursery.title">Nursery / Maternelle</h3>
+        <p class="lede" data-i18n="prog.nursery.lede">
+          Éveil, pré-lecture, pré-mathématiques, anglais et français.
+        </p>
+        <ul>
+          <li>
+            Pre-Nursery / Pre-Maternelle
+            <div class="en">PN</div>
+          </li>
+          <li>
+            Nursery 1 / Maternelle 1
+            <div class="en">N1</div>
+          </li>
+          <li>
+            Nursery 2 / Maternelle 2
+            <div class="en">N2</div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="level-block">
+        <h3 data-i18n="prog.primary.title">Primary / Primaire</h3>
+        <p class="lede" data-i18n="prog.primary.lede">
+          Socle bilingue : mathématiques, français, English Language, sciences et valeurs.
+        </p>
+        <ul>
+          <li>
+            Basic 1 / CI
+            <div class="en">B1</div>
+          </li>
+          <li>
+            Basic 2 / CP
+            <div class="en">B2</div>
+          </li>
+          <li>
+            Basic 3 / CE1
+            <div class="en">B3</div>
+          </li>
+          <li>
+            Basic 4 / CE2
+            <div class="en">B4</div>
+          </li>
+          <li>
+            Basic 5 / CM1
+            <div class="en">B5</div>
+          </li>
+          <li>
+            Basic 6 / CM2
+            <div class="en">B6</div>
+          </li>
+        </ul>
+      </div>
+
+      <p>
+        <a class="btn btn-primary" href="admissions.html" data-i18n="nav.admissions"
+          >Admissions &amp; frais</a
+        >
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="brand" data-i18n="footer.rights">Citigems Bilingual School · Cotonou</div>
+      <div data-i18n="footer.ifu">Facturation e-MECeF · Powered by DevOps</div>
+      <a
+        class="staff-link"
+        href="https://cs.devopsflows.com/login"
+        data-i18n="nav.staff"
+        >Connexion personnel</a
+      >
+    </footer>
+    <script src="js/i18n.js" defer></script>
+  </body>
+</html>

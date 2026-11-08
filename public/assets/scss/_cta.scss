@@ -1,0 +1,99 @@
+
+
+//choose-new-section
+.choose-thumb-wap{
+	position: relative;
+	.thumb{
+		width: 582px;
+		margin: 0 auto;
+		img{
+			width: 100%;
+		}
+	}
+	.quick-rainbow{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+
+	}
+	.quick-randay{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.quick-ba{
+		position: absolute;
+		top: -45px;
+		left: -40px;
+	}
+}
+.progress-theme-items{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #6754E9;
+	border-radius: 16px;
+	padding: 12px 30px;
+	.p-title{
+		font-size: 16px;
+		font-family: $heading-font;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 22px;
+	}
+	.p-count{
+		font-size: 16px;
+		font-family: $heading-font;
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 42px;
+	}
+	&.style2{
+		background-color: #FFE800;
+		max-width: 492px;
+		position: relative;
+		z-index: 1;
+		top: -20px;
+		.p-title,
+		.p-count{
+			color: #000;
+		}
+	}
+	@include breakpoint(max-lg){
+		padding: 10px 20px;
+		.p-title{
+			font-size: 15px;
+			line-height: 20px;
+		}
+		.p-count{
+			font-size: 24px;
+			line-height: 30px;
+		}
+		&.style2{
+			top: -15px;
+		}
+	}
+}
+.babol-parasut{
+	position: absolute;
+	bottom: 38px;
+	right: 70px;
+}
+.babol-quit{
+	position: absolute;
+	bottom: -40px;
+	left: 50px;
+}
+@media screen and (max-width: 1558px) {
+	.babol-parasut{
+		position: absolute;
+		bottom: 0px;
+		right: 20px;
+	}
+	.babol-quit{
+		position: absolute;
+		bottom: -60px;
+		left: 20px;
+	}	
+}

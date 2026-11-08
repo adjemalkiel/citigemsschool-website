@@ -1,0 +1,783 @@
+//Hero style
+.banner-section{
+    position: relative;
+    background: url(../../assets/img/element/hero-bg1.png) no-repeat center center;
+    background-size: cover;
+    padding-top: 190px;
+    z-index: 1;
+    .container{
+        max-width: 1670px;
+        margin: 0 auto;
+    }
+    .banner-content{
+        padding-top: 80px;
+        .hero-badge{
+            background-color: #5242B0;
+            border-radius: 100px;
+            padding: 8px 18px;
+            display: inline-block;
+            font-size: 18px;
+            line-height: 22px;
+            font-family: $heading-font;
+            color: $white;
+            font-weight: 600;
+            margin-bottom: 18px;
+        }
+    }
+    .hero-pen{
+        position: absolute;
+        right: 115px;
+        top: 156px;
+    }
+    .hero-thumb{
+        width: 100%;
+        position: relative;
+        .mimg{
+            width: 100%;
+        }
+        .hero-circle{
+            position: absolute;
+            top: 100px;
+            left: 200px;
+            z-index: -1;
+        }
+        .flash-ele{
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .bulp-ele{
+            position: absolute;
+            right: 30px;
+            top: 100px;
+            animation: zoomin 2s linear infinite;
+        }
+    }
+    .video-style{
+        width: 56px;
+        height: 56px;
+        background-color: #FFE800;
+    }
+    .hero-shape1{
+        position: absolute;
+        bottom: -1px;
+        z-index: 1;
+        left: 0;
+        width: 100%;
+    }
+    @include breakpoint(max-xxxl){
+        .banner-content{
+            padding-top: 80px;
+            h1{
+                font-size: 50px;
+                line-height: 60px;
+            }
+            .hero-badge{
+                padding: 8px 16px;
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 18px;
+            }
+        }
+        .hero-thumb{
+            .hero-circle{
+                position: absolute;
+                top: 100px;
+                left: 200px;
+                width: 400px;
+                z-index: -1;
+            }
+        }
+    }
+    @include breakpoint(max-xxl){
+        .banner-content{
+            padding-top: 40px;
+            h1{
+                font-size: 40px;
+                line-height: 50px;
+            }
+            .hero-badge{
+                padding: 8px 16px;
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 18px;
+            }
+        }
+        .hero-thumb{
+            .hero-circle{
+                position: absolute;
+                top: 100px;
+                left: 200px;
+                width: 350px;
+                z-index: -1;
+            }
+        }
+    }
+    @include breakpoint(max-xl){
+         .hero-pen{
+            right: 40px;
+            top: 100px;
+        }
+        .banner-content{
+            padding-top: 0px;
+            padding-bottom: 100px;
+            h1{
+                font-size: 40px;
+                line-height: 50px;
+            }
+            .hero-badge{
+                padding: 8px 16px;
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 18px;
+            }
+        }
+        .hero-thumb{
+            .hero-circle{
+                position: absolute;
+                top: 80px;
+                left: 120px;
+                width: 280px;
+                z-index: -1;
+            }
+        }
+    }
+    @include breakpoint(max-lg){
+         .hero-pen{
+            right: 40px;
+            top: 100px;
+        }
+        .banner-content{
+            padding-top: 0px;
+            padding-bottom: 20px;
+            text-align: center;
+            h1{
+                font-size: 40px;
+                line-height: 50px;
+            }
+            .hero-badge{
+                padding: 8px 16px;
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 18px;
+            }
+        }
+        .video-style{
+            width: 40px;
+            height: 40px;
+        }
+        .hero-thumb{
+            .hero-circle{
+               display: none;
+            }
+        }
+    }
+    @include breakpoint(max-xs){
+         .hero-pen{
+            right: 40px;
+            top: 100px;
+        }
+        .banner-content{
+            padding-top: 0px;
+            padding-bottom: 20px;
+            text-align: center;
+            h1{
+                font-size: 30px;
+                line-height: 40px;
+            }
+            .hero-badge{
+                padding: 8px 16px;
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 18px;
+            }
+        }
+        .bulp-ele{
+            right: 5px !important;
+            top: 0 !important;
+            width: 40px;
+        }
+        .flash-ele{
+            width: 70px;
+        }
+        .video-style{
+            width: 40px;
+            height: 40px;
+        }
+        .hero-thumb{
+            .hero-circle{
+               display: none;
+            }
+        }
+    }
+}
+//Hero style
+.banner-section02{
+    background: url(../../assets/img/element/hero-bg02.png) no-repeat center center;
+    .hero-circle2{
+        position: absolute;
+        top: 0;
+        left: -40px;
+        z-index: -1;
+        width: 800px;
+    }
+    .hero-single-book{
+        position: absolute;
+        left: 450px;
+        bottom: 330px;
+    }
+    .hero-single-line{
+        position: absolute;
+        left: 35%;
+        bottom: 150px;
+    }
+    .hero-count-book{
+        position: absolute;
+        bottom: 280px;
+        right: 65px;
+        z-index: 1;
+    }
+    .hero-shot{
+        position: absolute;
+        top: 150px;
+        right: 165px;
+        z-index: 1;
+    }
+    .hero-snows{
+        position: absolute;
+        top: 150px;
+        left: 48%;
+        width: 120px;
+    }
+    .hero-pens{
+        position: absolute;
+        top: 290px;
+        left: 20px;
+        width: 90px;
+    }
+    .hero-sun-fun{
+        position: absolute;
+        bottom: 70px;
+        right: 150px;
+        z-index: 1;
+    }
+    .banner-content{
+        h1{
+            font-size: 72px !important;
+        }
+        .badge-sub2{
+            font-size: 18px;
+            line-height: 28px;
+            color: $p1-clr;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .social-area{
+            display: flex;
+            align-items: center;
+            gap: 12px 32px;
+            flex-wrap: wrap;
+            .line-area{
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                font-weight: 500;
+                color: #4A4A50;
+                img{
+                    width: 100px;
+                    object-fit: contain;
+                }
+            }
+            .social-icon{
+                a{
+                    width: 36px;
+                    height: 36px;
+                    background-color: #FFF0E8;
+                    color: #000;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    font-size: 14px;
+                    transition: all 0.3s;
+                    &:hover{
+                        background-color: $text-p1;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 1850px) {
+        .hero-pens{
+            position: absolute;
+            top: 120px;
+            left: 50px;
+            width: 90px;
+        }
+        .hero-count-book{
+            position: absolute;
+            bottom: 180px;
+            right: 65px;
+            z-index: 1;
+            width: 120px;
+        }
+    }
+    @include breakpoint(max-xxl){
+        .banner-content{
+            h1{
+                font-size: 72px !important;
+                line-height: 75px;
+            }
+            .social-area{
+                display: flex;
+                align-items: center;
+                gap: 12px 24px;
+                flex-wrap: wrap;
+            }
+        }
+        .hero-single-book{
+            left: 350px;
+            bottom: 180px;
+            width: 120px;
+        }
+        .hero-single-line{
+            left: 35%;
+            bottom: 150px;
+            width: 120px;
+        }
+        .hero-count-book{
+            bottom: 280px;
+            right: 65px;
+            width: 120px;
+        }
+        .hero-shot{
+            top: 100px;
+            right: 135px;
+            z-index: 1;
+            width: 90px;
+        }
+    }
+    @include breakpoint(max-xl){
+        .banner-content{
+            h1{
+                font-size: 56px !important;
+                line-height: 56px;
+            }
+            .social-area{
+                display: flex;
+                align-items: center;
+                gap: 12px 24px;
+                flex-wrap: wrap;
+            }
+        }
+        .hero-single-book{
+            left: 350px;
+            bottom: 180px;
+            width: 120px;
+        }
+        .hero-single-line{
+           display: none;
+           width: 80px;
+        }
+        .hero-count-book{
+            bottom: 50px;
+            right: 65px;
+            width: 120px;
+        }
+        .hero-pens{
+            display: none;
+        }
+        .hero-shot{
+            top: 100px;
+            right: 135px;
+            z-index: 1;
+            width: 90px;
+        }
+        .hero-sun-fun{
+            display: none;
+        }
+    }
+    @include breakpoint(max-lg){
+        background-size: cover;
+        .banner-content{
+            h1{
+                font-size: 56px !important;
+                line-height: 56px;
+            }
+            .social-area{
+                display: flex;
+                align-items: center;
+                gap: 12px 24px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+        .hero-single-book{
+            display: none;
+        }
+        .hero-single-line{
+           display: none;
+        }
+        .hero-count-book{
+            display: none;
+        }
+        .hero-snows{
+            display: none;
+        }
+        .hero-pens{
+            display: none;
+        }
+        .hero-shot{
+            display: none;
+        }
+        .hero-sun-fun{
+            display: none;
+        }
+    }
+    @media screen and (max-width: 450px) {
+        .banner-content{
+            h1{
+                font-size: 38px !important;
+                line-height: 38px;
+            }
+            .social-area{
+                display: flex;
+                align-items: center;
+                gap: 12px 24px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+}
+//Hero style
+
+//Hero style03
+.banner-section03{
+    background: url(../../assets/img/banner/hero-bg3.png) no-repeat bottom center;    
+    background-size: cover;
+    padding-top: 0;
+    position: relative;
+    z-index: 1;
+    .banner-content3{
+        max-width: 850px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 296px 0 292px;
+        p{
+            max-width: 735px;
+            margin: 0 auto;
+        }
+        h1{
+            font-size: 72px;
+            line-height: 82px;
+            span{
+                font-size: 72px;
+                line-height: 72px;
+            }
+        }
+    }
+    .hero-thumb-right{
+        position: absolute;
+        right: 40px;
+        bottom: 0;
+        max-width: 900px;
+        height: 640px;
+        z-index: -1;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .hero-thumb-left{
+        position: absolute;
+        left: 100px;
+        bottom: 80px;
+        z-index: -1;
+    }
+    .round-hero-shape{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .shot-4{
+        position: absolute;
+        top: 200px;
+        left: 10px;
+        z-index: -2;
+    }
+    .shot-plen{
+        position: absolute;
+        top: 220px;
+        right: 400px;
+    }
+    .shot-3{
+        position: absolute;
+        bottom: 60px;
+        right: 800px;
+    }
+    @media screen and (max-width: 1790px) {
+        .hero-thumb-right{
+            right: 10px;
+            bottom: 0;
+            max-width: 900px;
+            height: 600px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .hero-thumb-left{
+            left: 20px;
+            bottom: 60px;
+        }
+        .shot-plen{
+            position: absolute;
+            top: 220px;
+            right: 100px;
+        }
+    }
+    @media screen and (max-width: 1600px) {
+        .hero-thumb-right{
+            right: 10px;
+            bottom: 0;
+            max-width: 700px;
+            height: 500px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .hero-thumb-left{
+            left: 20px;
+            bottom: 60px;
+            max-width: 400px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    @include breakpoint(max-xxl){
+        .hero-thumb-right{
+            right: 10px;
+            bottom: 0;
+            max-width: 600px;
+            height: 400px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .hero-thumb-left{
+            left: 20px;
+            bottom: 60px;
+            max-width: 320px;
+            img{
+                width: 100%;
+            }
+        }
+        .shot-3{
+            position: absolute;
+            bottom: 60px;
+            right: 500px;
+        }
+    }
+    @include breakpoint(max-xl){
+        .hero-thumb-right{
+            right: 10px;
+            bottom: 0;
+            max-width: 600px;
+            height: 400px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .hero-thumb-left{
+            left: 20px;
+            bottom: 60px;
+            max-width: 260px;
+            img{
+                width: 100%;
+            }
+        }
+        .banner-content3{
+            text-align: center;
+            padding: 250px 0 320px;
+            h1{
+                font-size: 60px;
+                line-height: 60px;
+                span{
+                    font-size: 60px;
+                    line-height: 60px;
+                }
+            }
+        }    
+        .shot-plen{
+            position: absolute;
+            top: 190px;
+            right: 20px;
+        }       
+    }
+    @include breakpoint(max-lg){
+        .banner-content3{
+            text-align: center;
+            padding: 180px 0 60px;
+            h1{
+                font-size: 44px;
+                line-height: 44px;
+                span{
+                    font-size: 44px;
+                    line-height: 44px;
+                }
+            }
+        }   
+        .hero-thumb-right{
+            right: 10px;
+            bottom: 0;
+            position: initial;
+            max-width: 600px;
+            margin: 0 auto;
+            height: auto;
+            padding: 0 24px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .hero-thumb-left{
+            display: none;
+        }
+        .shot-plen{
+            position: absolute;
+            top: 110px;
+            right: 20px;
+        } 
+    }
+    @include breakpoint(max-sm){
+        .banner-content3{
+            text-align: center;
+            padding: 170px 0 40px;
+            h1{
+                font-size: 38px;
+                line-height: 38px;
+                span{
+                    font-size: 38px;
+                    line-height: 38px;
+                }
+            }
+        }   
+    }
+}
+//Hero style03
+
+
+//banner-breadcrumb-section
+.banner-breadcrumb-section{
+    background-color: #FFF0E8;
+    position: relative;
+    z-index: 1;
+    padding: 106px 0 196px;
+    .breadcrumb-content{
+        h1{
+            font-size: 72px;
+            line-height: 72px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        .bread-link{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 13px;
+            li{
+                font-size: 18px;
+                font-weight: 600;
+                color: #000;
+                font-family: $heading-font;
+                i{
+                    color: rgb(7, 7, 19, 0.7) !important;
+                    font-size: 16px;
+                }
+                a{
+                    color: #F15F25;
+                }
+            }
+        }
+    }
+    .bread-shape{
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
+    .bread-ele1{
+        position: absolute;
+        right: 0;
+        bottom: 175px;
+        z-index: -1;
+    }
+    .bread-ele2{
+        position: absolute;
+        bottom: 253px;
+        right: 600px;
+        z-index: -1;
+    }
+    .bread-ele3{
+        position: absolute;
+        bottom: 96px;
+        left: 450px;
+    }
+    .bread-ele4{
+        position: relative;
+        bottom: 180px;
+        left: 425px;
+    }
+    .bread-ele5{
+        position: absolute;
+        bottom: 280px;
+        left: 70px;
+    }
+    @include breakpoint(max-xl){
+        padding: 100px 0 176px;
+        .breadcrumb-content{
+            h1{
+                font-size: 48px;
+                line-height: 48px;
+                margin-bottom: 20px;
+                font-weight: 700;
+            }
+        }
+         .bread-ele3{
+            bottom: 56px;
+            left: 200px;
+        }
+    }
+    @include breakpoint(max-lg){
+        padding: 80px 0 126px;
+        .breadcrumb-content{
+            h1{
+                font-size: 48px;
+                line-height: 48px;
+                margin-bottom: 20px;
+                font-weight: 700;
+            }
+        }
+    }
+    @include breakpoint(max-md){
+        padding: 80px 0 120px;
+        .breadcrumb-content{
+            h1{
+                font-size: 40px;
+                line-height: 40px;
+                margin-bottom: 15px;
+                font-weight: 700;
+            }
+        }
+    }
+}

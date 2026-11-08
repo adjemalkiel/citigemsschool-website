@@ -1,0 +1,311 @@
+//program-history-section
+.program-history-section{
+    position: relative;
+    z-index: 1;
+    @include breakpoint(max-lg){
+        padding: 60px;
+    }
+    @include breakpoint(max-md){
+        padding: 0px;
+        border-radius: 10px !important;
+        .style1{
+            background-color: #F2E9FF;
+        }
+        .style2{
+            background-color: #EBFEEA;
+        }
+        .style3{
+            background-color: #DBFFF9;
+        }
+        .style4{
+            background-color: #FFE3EC;
+        }
+    }
+}
+.program-item-wrap{
+    position: relative;
+    z-index: 1;
+    .bg-area{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    .program-items{
+        // background-color: #F2E9FF;
+        padding: 45px 20px;
+        .thumb{
+            margin-bottom: 16px;
+        }
+        .cont{
+            .preschool-title,
+            h3{
+                line-height: 26px;
+                font-size: 25px;
+                font-weight: 700;
+                color: $black;
+                display: block;
+                font-family: $heading-font;
+                margin-bottom: 8px !important;
+                display: block;
+            }
+            p,
+            span{
+                font-size: 16px;
+                line-height: 26px;
+                color: $pra;
+                font-weight: 500;
+            }
+        }
+    }
+    @include breakpoint(max-xxl){
+       .bg-area{
+            height: auto;
+        } 
+        .program-items{
+            .thumb{
+                width: 60px;
+                margin: 0 auto 16px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    @include breakpoint(max-md){
+        .bg-area{
+            display: none;
+        }
+        .program-items{
+            padding: 30px 15px;
+            border-radius: 10px;
+        }
+    }
+}
+
+//kids-logo-section2
+.kids-logo-section2{
+    position: relative;
+    z-index: 1;
+    background: url(../../assets/img/element/kid-school-shape2.png) no-repeat top center;
+    background-size: cover;
+   .kids-logos{
+        max-width: 190px;
+        padding: 0;
+        img{
+            width: 100%;
+        }
+   } 
+}
+
+//program-play-section
+.program-play-section{
+    position: relative;
+    z-index: 1;
+    .program-bg-shape{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
+    .cources-single-items{
+        .c-image{
+            img{
+                width: 100%;
+                transition: all 0.4s;
+            }
+        }
+        &:hover{
+            .c-image{
+                img{
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+    .ball-ele{
+        position: absolute;
+        bottom: 24px;
+        left: calc(100% - 380px);
+        z-index: -1;
+    }
+    .program-global{
+        position: absolute;
+        right: 55px;
+        bottom: 50%;
+    }
+    .program-education{
+        position: absolute;
+        left: 230px;
+        top: 65px;
+    }
+    .program-star{
+        position: absolute;
+        left: 120px;
+        top: 44%;
+    }
+    @media screen and (max-width: 1500px) {
+        .program-bg-shape{
+           height: 1000px;
+        }   
+        .ball-ele{
+            position: absolute;
+            bottom: 10px;
+            left: calc(100% - 200px);
+            z-index: -1;
+        }
+        .program-global{
+            width: 110px;
+        }
+        .program-education{
+            left: 40px;
+            top: 24px;
+        }
+        .program-star{
+            left: 10px;
+            top: 44%;
+        }
+    }
+    @include breakpoint(max-xxl){
+        .cources-single-items{
+            padding: 16px 20px;
+        }
+    }
+    @include breakpoint(max-xl){
+        .cources-single-items{
+            padding: 16px 20px;
+        }
+        .program-bg-shape{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    @include breakpoint(max-sm){
+        .play-ground{
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+}
+.play-grps{
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 700;
+    color: $white;
+    font-family: $heading-font;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+    position: absolute;
+    .video-style{
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background-color: $p1-clr;
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+        i{
+            font-size: 38px;
+            color: $white;
+        }
+    }
+    @include breakpoint(max-xl) {
+        font-size: 80px;
+        line-height: 80px;
+        gap: 20px;
+        .video-style{
+            width: 80px;
+            height: 80px;
+            i{
+                font-size: 28px;
+            }
+        }
+    }
+    @include breakpoint(max-lg) {
+        font-size: 36px;
+        line-height: 36px;
+        gap: 14px;
+        flex-wrap: wrap;
+        .video-style{
+            width: 44px;
+            height: 44px;
+            i{
+                font-size: 15px;
+            }
+        }
+    }
+}
+.babol-suns{
+    position: absolute;
+    top: 30px;
+    right: 120px;
+    @include breakpoint(max-lg) {
+        right: 10px;
+        top: 10px;
+        width: 120px;
+    }
+}
+
+//single-items__program03
+.service-program-section{
+    position: relative;
+    z-index: 1;
+    .ser-ele-left{
+        position: absolute;
+        z-index: -1;
+        bottom: 22px;
+        left: 36px;
+    }
+    .ser-ele-right{
+        position: absolute;
+        z-index: -1;
+        top: 80px;
+        right: 65px;
+    }
+    @include breakpoint(max-xxxl){
+        .ser-ele-left{
+            bottom: 10px;
+            left: 10px;
+        }
+        .ser-ele-right{
+            top: 20px;
+            right: 10px;
+        }   
+    }
+}
+.single-items__program03{
+    padding: 48px 24px;
+    h3{
+        a{
+            font-size: 24px;
+            line-height: 29px;
+            display: block;
+            font-weight: 600;
+            letter-spacing: initial !important;
+            
+        }
+    }
+    
+    @include breakpoint(max-xxl){
+        padding: 35px 16px;
+        border-radius: 10px;
+        &.bg1{
+            background-color: #DBFFF9;
+        }
+        &.bg2{
+            background-color: #EBFEEA;
+        }
+        &.bg4{
+            background-color: #FFE3EC;
+        }
+    }
+}
+.max-w-258px{
+    max-width: 258px;
+}

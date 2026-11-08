@@ -1,0 +1,224 @@
+//>>>>> Component Button Here <<<<<//
+
+//Btn Theme
+.common-btn {
+	position: relative;
+	padding: 19px 30px;
+	line-height: 18px;
+	transition: all 0.5s;
+	i {
+		transition: all 0.5s;
+		z-index: 1;
+	}
+	&:hover {
+		color: $black;
+	}
+	@include breakpoint(max-xxl){
+		padding: 16px 24px;
+	}
+}
+
+.common_btn {
+    background-color: $text-p1;
+    color: $white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 4px 4px 24px;
+    border: none;
+    border-radius: 16px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    .icon_wrapper {
+        background-color: $white;
+        color: $black;
+        width: 48px;
+		min-width: 48px;
+        height: 48px;
+        border-radius: 16px; 
+        margin-left: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden; 
+        i {
+            font-size: 18px;
+            transition: transform $transition-speed cubic-bezier(0.7, 0, 0.3, 1);
+        }
+    }
+	&.common_btn_outline{
+		border: 1px solid $text-p1;
+		background-color: transparent;
+		color: #000;
+		font-weight: 700;
+		transition: all 0.4s;
+		.icon_wrapper{
+			background-color: $text-p1;
+			i{
+				color: #fff;
+			}
+		}
+		&:hover{
+			border: 1px solid $text-p1;
+			background-color: $text-p1;
+			color: #fff;
+			font-weight: 700;
+			.icon_wrapper{
+				background-color: $white;
+				i{
+					color: #000;
+				}
+			}
+		}
+	}
+	&.common_btn__outline-white{
+		border: 1px solid #fff;
+		color: #fff;
+		.icon_wrapper{
+			background-color: #fff;
+			i{
+				color: #000;
+			}
+		}
+	}
+	&.common_btn__outline-theme3{
+		border: 1px solid #6754E9;
+		background-color: transparent;
+		color: #000;
+		.icon_wrapper{
+			background-color: #6754E9;
+			i{
+				color: #fff;
+			}
+		}
+	}
+    // Hover State
+    &:hover {
+        .icon_wrapper i {
+            animation: arrowSlide $transition-speed forwards;
+        }
+    }
+	@include breakpoint(max-xxl) {
+		padding: 4px 4px 4px 10px;
+		border-radius: 8px;
+		font-size: 12px;
+		.icon_wrapper {
+			width: 29px;
+			min-width: 29px;
+			height: 29px;
+			border-radius: 8px;
+			margin-left: 6px;
+			i {
+				font-size: 12px;
+			}
+		}
+	}
+}
+.read-more-button{
+	font-size: 16px;
+	font-weight: 600;
+	color: $p1-clr;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	transition: all 0.3s ease;
+	i{
+		transition: all 0.3s ease;
+	}
+	&:hover{
+		color: $p1-clr;
+		i{
+			color: $p1-clr;
+			padding-left: 2px;
+		}
+	}
+	&.text-p1{
+		color: $text-p1 !important;
+		&:hover{
+			color: $text-p1;
+			i{
+				color: $text-p1;
+			}
+		}
+	}
+}
+
+// Animation Keyframes
+@keyframes arrowSlide {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    49% {
+        transform: translateX(35px); 
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(-35px); 
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+}
+
+//Custom ANis
+@keyframes storm {
+	0% {
+		transform: translate3d(0, 0, 0) translateZ(0);
+	}
+	25% {
+		transform: translate3d(4px, 0, 0) translateZ(0);
+	}
+	50% {
+		transform: translate3d(-3px, 0, 0) translateZ(0);
+	}
+	75% {
+		transform: translate3d(2px, 0, 0) translateZ(0);
+	}
+	100% {
+		transform: translate3d(0, 0, 0) translateZ(0);
+	}
+}
+.box-style {
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+	text-align: center;
+	&:hover {
+		&::before {
+			width: 400%;
+			height: 400%;
+		}
+	}
+	&::before {
+		content: "";
+		position: absolute;
+		top: var(--y);
+		left: var(--x);
+		transform: translate(-50%, -50%);
+		width: 0;
+		height: 0;
+		border-radius: 10px;
+		background-color: $p1-clr;
+		transition: all 0.7s ease;
+		z-index: -1;
+	}
+}
+.box-style.first-box {
+	&::before {
+		background-color: $p2-clr;
+	}
+	&:hover {
+		i {
+			color: $black;
+		}
+		span {
+			color: $black;
+		}
+	}
+}
+//>>>>> Component Button End <<<<<//

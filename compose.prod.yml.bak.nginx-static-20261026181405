@@ -1,0 +1,16 @@
+# Static Citigems marketing site (replaces Next.js app). Caddy still proxies :3030.
+services:
+  app:
+    image: nginx:alpine
+    container_name: citigemsschool-web
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3030:80"
+    volumes:
+      - ./site:/usr/share/nginx/html:ro
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1/"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
