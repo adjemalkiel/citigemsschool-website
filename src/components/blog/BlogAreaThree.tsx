@@ -20,7 +20,7 @@ export default function BlogAreaThree() {
               </div>
             </div>
             <div className="">
-              <Link href="/blog" className="common_btn text-nowrap">
+              <Link href="/" className="common_btn text-nowrap">
                 View All Events
                 <span className="icon_wrapper">
                   <i className="fas fa-long-arrow-alt-right"></i>
@@ -33,7 +33,7 @@ export default function BlogAreaThree() {
               <div className="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                 <div className="cources-single-items bg-white-xl">
                   <Image src="/assets/img/element/blog-grid-shape3.png" alt="Blog Grid Shape Shape Element" width={644} height={582} className="cources-bg d-xl-block d-none" />
-                  <Link href="/blog-details"
+                  <Link href="/"
                     className="c-image mb-xxl-4 mb-3 px-xl-2 position-relative overflow-hidden">
                     <Image src="/assets/img/blog/blog-gridv3-s1.png" alt="Blog Post Blog Gridv S" width={580} height={275} className="rounded-5 w-100" />
                   </Link>
@@ -48,11 +48,11 @@ export default function BlogAreaThree() {
                       </span>
                     </div>
                     <h3 className="border-bottom pb-4 mb-4 lh-1">
-                      <Link href="/blog-details" className="black d-block lh-sm visible-slowly-bottom">
+                      <Link href="/" className="black d-block lh-sm visible-slowly-bottom">
                         Fun & Educational Activities to Keep Kids Engaged at Home
                       </Link>
                     </h3>
-                    <Link href="/blog-details" className="common_btn text-nowrap">
+                    <Link href="/" className="common_btn text-nowrap">
                       VIEW BOLG
                       <span className="icon_wrapper">
                         <i className="fas fa-long-arrow-alt-right"></i>
@@ -64,7 +64,7 @@ export default function BlogAreaThree() {
               <div className="col-xl-6 col-lg-6 pt-lg-3 wow fadeInUp" data-wow-delay=".5s">
                 <div className="cources-single-items mb-lg-4 mb-3 style__unique-grid">
                   <Image src="/assets/img/element/blog-gridv3-s4.png" alt="Blog Gridv S" width={644} height={275} className="cources-bg d-xl-block d-none" />
-                  <Link href="/blog-details" className="c-image mb-0 position-relative overflow-hidden">
+                  <Link href="/" className="c-image mb-0 position-relative overflow-hidden">
                     <Image src="/assets/img/blog/blog-gridv3-s2.png" alt="Blog Post Blog Gridv S" width={230} height={211} className="rounded-5 w-100" />
                   </Link>
                   <div className="c-content p-0">
@@ -78,11 +78,11 @@ export default function BlogAreaThree() {
                       </span>
                     </div>
                     <h3 className="border-bottom pb-xxl-4 mb-3 mb-xxl-4 pb-3 lh-1">
-                      <Link href="/blog-details" className="black d-block lh-sm visible-slowly-bottom">
+                      <Link href="/" className="black d-block lh-sm visible-slowly-bottom">
                         Fun Learning Activities to Do at Home
                       </Link>
                     </h3>
-                    <Link href="/blog-details" className="common_btn text-nowrap">
+                    <Link href="/" className="common_btn text-nowrap">
                       VIEW BOLG
                       <span className="icon_wrapper">
                         <i className="fas fa-long-arrow-alt-right"></i>
@@ -92,7 +92,7 @@ export default function BlogAreaThree() {
                 </div>
                 <div className="cources-single-items style__unique-grid">
                   <Image src="/assets/img/element/blog-gridv3-s4.png" alt="Blog Gridv S" width={644} height={275} className="cources-bg d-xl-block d-none" />
-                  <Link href="/blog-details" className="c-image mb-0 position-relative overflow-hidden">
+                  <Link href="/" className="c-image mb-0 position-relative overflow-hidden">
                     <Image src="/assets/img/blog/blog-gridv3-s3.png" alt="Blog Post Blog Gridv S" width={230} height={211} className="rounded-5 w-100" />
                   </Link>
                   <div className="c-content p-0">
@@ -106,11 +106,11 @@ export default function BlogAreaThree() {
                       </span>
                     </div>
                     <h3 className="border-bottom pb-xxl-4 mb-3 mb-xxl-4 pb-3 lh-1">
-                      <Link href="/blog-details" className="black d-block lh-sm visible-slowly-bottom">
+                      <Link href="/" className="black d-block lh-sm visible-slowly-bottom">
                         Building Strong Bonds Between Nanny and Child
                       </Link>
                     </h3>
-                    <Link href="/blog-details" className="common_btn text-nowrap">
+                    <Link href="/" className="common_btn text-nowrap">
                       VIEW BOLG
                       <span className="icon_wrapper">
                         <i className="fas fa-long-arrow-alt-right"></i>

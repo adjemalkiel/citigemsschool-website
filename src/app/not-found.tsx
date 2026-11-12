@@ -3,20 +3,20 @@ import Image from "next/image";
 import Breadcrumb from '@/components/common/Breadcrumb'
 import FooterFour from '@/layouts/footers/FooterFour'
 import HeaderFour from '@/layouts/headers/HeaderFour'
+import Wrapper from '@/layouts/Wrapper'
 import Link from 'next/link'
 
 import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "404 Page Citigems Bilingual School",
-  description: "404  — Citigems Bilingual School.",
+    title: "404 Page Citigems Bilingual School",
+    description: "404  — Citigems Bilingual School.",
 }
 
 export default function NotFound() {
   return (
-    <>
+    <Wrapper>
       <HeaderFour />
       <Breadcrumb title='404 Page' subtitle='404 Page' />
-      {/* <!-- error Section Start --> */}
       <section className="error-section pt-5 section-padding fix">
         <div className="container">
           <div className="error-thumb wow fadeInUp" data-wow-delay="0.4s">
@@ -41,6 +41,6 @@ export default function NotFound() {
         </div>
       </section>
       <FooterFour />
-    </>
+    </Wrapper>
   )
 }

@@ -40,27 +40,27 @@ export default function FooterFour() {
                 <h3 className="mb-xxl-4 mb-3 text-dark">Our Programs</h3>
                 <ul className="footer-widget-link">
                   <li>
-                    <Link href="/program">
+                    <Link href="/#programmes">
                       <i className="fas fa-angle-double-right"></i> Preschool Program
                     </Link>
                   </li>
                   <li>
-                    <Link href="/event">
+                    <Link href="/">
                       <i className="fas fa-angle-double-right"></i> Kindergarten Readiness
                     </Link>
                   </li>
                   <li>
-                    <Link href="/event">
+                    <Link href="/">
                       <i className="fas fa-angle-double-right"></i> Creative Arts
                     </Link>
                   </li>
                   <li>
-                    <Link href="/event">
+                    <Link href="/">
                       <i className="fas fa-angle-double-right"></i> Language & Literacy
                     </Link>
                   </li>
                   <li>
-                    <Link href="/event">
+                    <Link href="/">
                       <i className="fas fa-angle-double-right"></i> Outdoor Activities
                     </Link>
                   </li>
@@ -74,7 +74,7 @@ export default function FooterFour() {
                   <li>
                     Address:
                     <a href="#">
-                      C/3227 Agla Agongbomey, Cotonou
+                      Agla Agongbomey, Cotonou
                     </a>
                   </li>
                   <li>

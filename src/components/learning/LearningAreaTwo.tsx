@@ -19,13 +19,13 @@ export default function LearningAreaTwo() {
                     Where Every Little Step Leads to Big Discoveries
                   </h2>
                   <div className="d-flex align-items-center flex-wrap gap-xxl-4 gap-xl-3 gap-2">
-                    <Link href="/testimonial" className="common_btn text-nowrap">
+                    <Link href="/" className="common_btn text-nowrap">
                       Read More Reviews
                       <span className="icon_wrapper">
                         <i className="fas fa-long-arrow-alt-right"></i>
                       </span>
                     </Link>
-                    <Link href="/contact"
+                    <Link href="/#contact"
                       className="common_btn ps-1 pe-3 common_btn_outline common_btn__outline-white text-nowrap">
                       <span className="icon_wrapper ms-0 me-2">
                         <i className="fas fa-long-arrow-alt-right"></i>

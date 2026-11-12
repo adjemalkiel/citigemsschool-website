@@ -83,7 +83,7 @@ export default function AboutAreaTwo2() {
                     </div>
                   </div>
                 </div>
-                <Link href="/about" className="common_btn text-nowrap">
+                <Link href="/#about" className="common_btn text-nowrap">
                   Learn More About Us
                   <span className="icon_wrapper">
                     <i className="fas fa-long-arrow-alt-right"></i>

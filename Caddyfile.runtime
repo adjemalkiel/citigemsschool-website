@@ -2,17 +2,6 @@
 	servers {
 		protocols h1 h2
 	}
-
-
-cs.devopsflows.com {
-	encode gzip
-	reverse_proxy 127.0.0.1:18080 {
-		header_up X-Forwarded-Proto https
-		header_up Host {host}
-		header_up X-Real-IP {remote_host}
-		flush_interval -1
-	}
-}
 }
 
 berakha.devopsflows.com {
@@ -60,11 +49,21 @@ dhkenergy.devopsflows.com {
 	}
 }
 
-citigemsschool.devopsflows.com {
+citigemsschool.com, www.citigemsschool.com {
 	encode gzip
 	reverse_proxy 127.0.0.1:3030 {
 		header_up X-Forwarded-Proto https
 		header_up Host {host}
 		header_up X-Real-IP {remote_host}
+	}
+}
+
+erp.citigemsschool.com {
+	encode gzip
+	reverse_proxy 127.0.0.1:18080 {
+		header_up X-Forwarded-Proto https
+		header_up Host {host}
+		header_up X-Real-IP {remote_host}
+		flush_interval -1
 	}
 }

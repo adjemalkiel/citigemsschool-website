@@ -1,13 +1,11 @@
-import BlogStandard from "@/components/inner-pages/blog-standard/BlogStandard";
+import HomeHashRedirect from "@/components/common/HomeHashRedirect";
+import { Metadata } from "next";
 
-import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Blog Standard Citigems Bilingual School",
-  description: "Blog Standard — Citigems Bilingual School.",
-}
+  title: "Citigems Bilingual School",
+  description: "Citigems Bilingual School.",
+};
 
 export default function BlogStandardPage() {
-  return (
-    <BlogStandard />
-  )
+  return <HomeHashRedirect />;
 }

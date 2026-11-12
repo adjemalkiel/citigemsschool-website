@@ -884,7 +884,7 @@ footer {
 }
 
 .ratting {
-  color: #ffc000;
+  color: #FCDA1E;
 }
 
 .before-none::before {
@@ -1909,7 +1909,7 @@ footer {
   line-height: 42px;
 }
 .progress-theme-items.style2 {
-  background-color: #C9A227;
+  background-color: #FCDA1E;
   max-width: 492px;
   position: relative;
   z-index: 1;
@@ -3140,7 +3140,7 @@ footer {
   display: flex;
 }
 .header-top-social .icon:hover {
-  background-color: #C9A227;
+  background-color: #FCDA1E;
 }
 .header-top-social .icon:hover i {
   color: rgb(0, 2, 41);
@@ -4275,7 +4275,7 @@ footer {
 .banner-section .video-style {
   width: 56px;
   height: 56px;
-  background-color: #C9A227;
+  background-color: #FCDA1E;
 }
 .banner-section .hero-shape1 {
   position: absolute;
@@ -6010,7 +6010,7 @@ input.main-search-input::placeholder {
 }
 
 .text-theme03 {
-  color: #C9A227;
+  color: #FCDA1E;
 }
 
 .w-36 {
@@ -6379,7 +6379,7 @@ input.main-search-input::placeholder {
   letter-spacing: -0.001em;
 }
 .section-title .sub__warning {
-  color: #C9A227;
+  color: #FCDA1E;
   font-size: 18px;
   font-weight: 600;
   line-height: 26px;
@@ -7056,7 +7056,7 @@ input.main-search-input::placeholder {
   margin-bottom: 10px;
 }
 .testimonial-single-item .ratting-area i {
-  color: #ffd464;
+  color: #FCDA1E;
   font-size: 19px;
 }
 .testimonial-single-item .content p {

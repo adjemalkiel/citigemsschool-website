@@ -1,5 +1,4 @@
 import AboutAreaThree from "@/components/about/AboutAreaThree";
-import BlogAreaThree from "@/components/blog/BlogAreaThree";
 import CoursesAreaThree from "@/components/courses/CoursesAreaThree";
 import EventAreaThree from "@/components/event/EventAreaThree";
 import HeroAreaThree from "@/components/hero/HeroAreaThree";
@@ -22,7 +21,6 @@ export default function HomeThree() {
       <EventAreaThree />
       <PricingAreaThree />
       <TestimonialAreaThree />
-      <BlogAreaThree />
       <LearningAreaThree />
       <FooterThree />
     </Wrapper>

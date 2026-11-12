@@ -25,7 +25,7 @@ export default function HeroAreaTwo() {
                   </p>
                   <div className="banner-video d-flex flex-sm-nowrap justify-content-center justify-content-lg-start flex-wrap align-items-center gap-xl-4 gap-lg-3 gap-2 space-bottom mb-lg-2 position-relative wow fadeInUp"
                     data-wow-delay="0.9s">
-                    <Link href="/contact" className="common_btn text-nowrap">
+                    <Link href="/#contact" className="common_btn text-nowrap">
                       Apply Today
                       <span className="icon_wrapper">
                         <i className="fas fa-long-arrow-alt-right"></i>

@@ -1,15 +1,11 @@
-import Testimonial from "@/components/inner-pages/testimonial/Testimonial";
+import HomeHashRedirect from "@/components/common/HomeHashRedirect";
+import { Metadata } from "next";
 
-
-import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Testimonial Citigems Bilingual School",
-  description: "Testimonial — Citigems Bilingual School.",
-}
-
+  title: "Citigems Bilingual School",
+  description: "Citigems Bilingual School.",
+};
 
 export default function TestimonialPage() {
-  return (
-    <Testimonial />
-  )
+  return <HomeHashRedirect />;
 }

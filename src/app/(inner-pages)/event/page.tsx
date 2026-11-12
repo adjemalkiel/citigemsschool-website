@@ -1,13 +1,11 @@
-import Event from "@/components/inner-pages/event/Event";
+import HomeHashRedirect from "@/components/common/HomeHashRedirect";
+import { Metadata } from "next";
 
-import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Event Citigems Bilingual School",
-  description: "Event — Citigems Bilingual School.",
-}
+  title: "Citigems Bilingual School",
+  description: "Citigems Bilingual School.",
+};
 
 export default function EventPage() {
-  return (
-    <Event />
-  )
+  return <HomeHashRedirect />;
 }

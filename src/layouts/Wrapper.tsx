@@ -7,7 +7,6 @@ import { useEffect } from "react";
 
 const Wrapper = ({ children }: { children: React.ReactNode }) => {
   useEffect(() => {
-    // animation
     const timer = setTimeout(() => {
       animationCreate();
     }, 100);
@@ -15,12 +14,12 @@ const Wrapper = ({ children }: { children: React.ReactNode }) => {
     return () => clearTimeout(timer);
   }, []);
 
-
-
-  return <>
-    <AnimationProvider />
-    {children}
-  </>;
+  return (
+    <>
+      <AnimationProvider />
+      {children}
+    </>
+  );
 };
 
 export default Wrapper;

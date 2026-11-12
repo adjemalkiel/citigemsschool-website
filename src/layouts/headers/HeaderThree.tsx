@@ -33,7 +33,7 @@ export default function HeaderThree() {
               <li className="line"></li>
               <li>
                 <i className="fa-solid fa-location-dot"></i>
-                <a href="#" className="link">C/3227 Agla Agongbomey, Cotonou</a>
+                <a href="#" className="link">Agla Agongbomey, Cotonou</a>
               </li>
             </ul>
             <div className="header-top-social d-flex align-items-center">

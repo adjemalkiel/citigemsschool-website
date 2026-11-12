@@ -1,14 +1,11 @@
-import ProgramDetails from "@/components/inner-pages/program-details/ProgramDetails";
+import HomeHashRedirect from "@/components/common/HomeHashRedirect";
+import { Metadata } from "next";
 
-import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Program Details Citigems Bilingual School",
-  description: "Program Details — Citigems Bilingual School.",
-}
-
+  title: "Programmes — Citigems Bilingual School",
+  description: "Programmes — Citigems Bilingual School.",
+};
 
 export default function ProgramDetailsPage() {
-  return (
-    <ProgramDetails />
-  )
+  return <HomeHashRedirect hash="programmes" />;
 }

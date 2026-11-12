@@ -12,7 +12,7 @@ export default function ProgramArea() {
               <div className="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div className="cources-single-items">
                   <Image src="/assets/img/element/program-main-item-shape.png" alt="Program Main Item Shape Shape Element" width={419} height={470} className="cources-bg" />
-                  <Link href="/program-details" className="c-image mb-3 position-relative overflow-hidden">
+                  <Link href="/#programmes" className="c-image mb-3 position-relative overflow-hidden">
                     <Image src="/assets/img/blog/course-1.png" alt="Blog Post Course" width={371} height={240} className="rounded-3 w-100" />
                   </Link>
                   <div className="c-content px-1">
@@ -25,14 +25,14 @@ export default function ProgramArea() {
                       </span>
                     </div>
                     <h2 className="mb-3 fs-24px fw-bold">
-                      <Link href="/program-details" className="black visible-slowly-bottom">
+                      <Link href="/#programmes" className="black visible-slowly-bottom">
                         Skill Development Class
                       </Link>
                     </h2>
                     <div className="border-bottom-deshed"></div>
                     <div
                       className="btn-grp-ele d-flex align-items-center justify-content-between gap-2 flex-wrap">
-                      <Link href="/program-details" className="common_btn common_btn_outline text-nowrap">
+                      <Link href="/#programmes" className="common_btn common_btn_outline text-nowrap">
                         Join Now
                         <span className="icon_wrapper w-36 h-36 min-w-36">
                           <i className="fas fa-long-arrow-alt-right"></i>
@@ -55,7 +55,7 @@ export default function ProgramArea() {
               <div className="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                 <div className="cources-single-items">
                   <Image src="/assets/img/element/program-main-item-shape.png" alt="Program Main Item Shape Shape Element" width={419} height={470} className="cources-bg" />
-                  <Link href="/program-details" className="c-image mb-3 position-relative overflow-hidden">
+                  <Link href="/#programmes" className="c-image mb-3 position-relative overflow-hidden">
                     <Image src="/assets/img/blog/course-2.png" alt="Blog Post Course" width={370} height={240} className="rounded-3 w-100" />
                   </Link>
                   <div className="c-content px-1">
@@ -68,14 +68,14 @@ export default function ProgramArea() {
                       </span>
                     </div>
                     <h3 className="mb-3">
-                      <Link href="/program-details" className="black visible-slowly-bottom">
+                      <Link href="/#programmes" className="black visible-slowly-bottom">
                         Music & Movement Class
                       </Link>
                     </h3>
                     <div className="border-bottom-deshed"></div>
                     <div
                       className="btn-grp-ele d-flex align-items-center justify-content-between gap-2 flex-wrap">
-                      <Link href="/program-details" className="common_btn common_btn_outline text-nowrap">
+                      <Link href="/#programmes" className="common_btn common_btn_outline text-nowrap">
                         Join Now
                         <span className="icon_wrapper w-36 h-36 min-w-36">
                           <i className="fas fa-long-arrow-alt-right"></i>
@@ -98,7 +98,7 @@ export default function ProgramArea() {
               <div className="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div className="cources-single-items">
                   <Image src="/assets/img/element/program-main-item-shape.png" alt="Program Main Item Shape Shape Element" width={419} height={470} className="cources-bg" />
-                  <Link href="/program-details" className="c-image mb-3 position-relative overflow-hidden">
+                  <Link href="/#programmes" className="c-image mb-3 position-relative overflow-hidden">
                     <Image src="/assets/img/blog/course-3.png" alt="Blog Post Course" width={371} height={240} className="rounded-3 w-100" />
                   </Link>
                   <div className="c-content px-1">
@@ -111,14 +111,14 @@ export default function ProgramArea() {
                       </span>
                     </div>
                     <h3 className="mb-3">
-                      <Link href="/program-details" className="black visible-slowly-bottom">
+                      <Link href="/#programmes" className="black visible-slowly-bottom">
                         Math & Number Skills Class
                       </Link>
                     </h3>
                     <div className="border-bottom-deshed"></div>
                     <div
                       className="btn-grp-ele d-flex align-items-center justify-content-between gap-2 flex-wrap">
-                      <Link href="/program-details" className="common_btn common_btn_outline text-nowrap">
+                      <Link href="/#programmes" className="common_btn common_btn_outline text-nowrap">
                         Join Now
                         <span className="icon_wrapper w-36 h-36 min-w-36">
                           <i className="fas fa-long-arrow-alt-right"></i>
@@ -141,7 +141,7 @@ export default function ProgramArea() {
               <div className="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div className="cources-single-items">
                   <Image src="/assets/img/element/program-main-item-shape.png" alt="Program Main Item Shape Shape Element" width={419} height={470} className="cources-bg" />
-                  <Link href="/program-details" className="c-image mb-3 position-relative overflow-hidden">
+                  <Link href="/#programmes" className="c-image mb-3 position-relative overflow-hidden">
                     <Image src="/assets/img/blog/course-4.png" alt="Blog Post Course" width={370} height={240} className="rounded-3 w-100" />
                   </Link>
                   <div className="c-content px-1">
@@ -154,14 +154,14 @@ export default function ProgramArea() {
                       </span>
                     </div>
                     <h3 className="mb-3">
-                      <Link href="/program-details" className="black visible-slowly-bottom">
+                      <Link href="/#programmes" className="black visible-slowly-bottom">
                         Reading & Phonics Class
                       </Link>
                     </h3>
                     <div className="border-bottom-deshed"></div>
                     <div
                       className="btn-grp-ele d-flex align-items-center justify-content-between gap-2 flex-wrap">
-                      <Link href="/program-details" className="common_btn common_btn_outline text-nowrap">
+                      <Link href="/#programmes" className="common_btn common_btn_outline text-nowrap">
                         Join Now
                         <span className="icon_wrapper w-36 h-36 min-w-36">
                           <i className="fas fa-long-arrow-alt-right"></i>
@@ -184,7 +184,7 @@ export default function ProgramArea() {
               <div className="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                 <div className="cources-single-items">
                   <Image src="/assets/img/element/program-main-item-shape.png" alt="Program Main Item Shape Shape Element" width={419} height={470} className="cources-bg" />
-                  <Link href="/program-details" className="c-image mb-3 position-relative overflow-hidden">
+                  <Link href="/#programmes" className="c-image mb-3 position-relative overflow-hidden">
                     <Image src="/assets/img/blog/course-5.png" alt="Blog Post Course" width={370} height={240} className="rounded-3 w-100" />
                   </Link>
                   <div className="c-content px-1">
@@ -197,14 +197,14 @@ export default function ProgramArea() {
                       </span>
                     </div>
                     <h3 className="mb-3">
-                      <Link href="/program-details" className="black visible-slowly-bottom">
+                      <Link href="/#programmes" className="black visible-slowly-bottom">
                         STEM & Discovery Class
                       </Link>
                     </h3>
                     <div className="border-bottom-deshed"></div>
                     <div
                       className="btn-grp-ele d-flex align-items-center justify-content-between gap-2 flex-wrap">
-                      <Link href="/program-details" className="common_btn common_btn_outline text-nowrap">
+                      <Link href="/#programmes" className="common_btn common_btn_outline text-nowrap">
                         Join Now
                         <span className="icon_wrapper w-36 h-36 min-w-36">
                           <i className="fas fa-long-arrow-alt-right"></i>
@@ -227,7 +227,7 @@ export default function ProgramArea() {
               <div className="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div className="cources-single-items">
                   <Image src="/assets/img/element/program-main-item-shape.png" alt="Program Main Item Shape Shape Element" width={419} height={470} className="cources-bg" />
-                  <Link href="/program-details" className="c-image mb-3 position-relative overflow-hidden">
+                  <Link href="/#programmes" className="c-image mb-3 position-relative overflow-hidden">
                     <Image src="/assets/img/blog/course-6.png" alt="Blog Post Course" width={370} height={240} className="rounded-3 w-100" />
                   </Link>
                   <div className="c-content px-1">
@@ -240,14 +240,14 @@ export default function ProgramArea() {
                       </span>
                     </div>
                     <h3 className="mb-3">
-                      <Link href="/program-details" className="black visible-slowly-bottom">
+                      <Link href="/#programmes" className="black visible-slowly-bottom">
                         Outdoor Learning Class
                       </Link>
                     </h3>
                     <div className="border-bottom-deshed"></div>
                     <div
                       className="btn-grp-ele d-flex align-items-center justify-content-between gap-2 flex-wrap">
-                      <Link href="/program-details" className="common_btn common_btn_outline text-nowrap">
+                      <Link href="/#programmes" className="common_btn common_btn_outline text-nowrap">
                         Join Now
                         <span className="icon_wrapper w-36 h-36 min-w-36">
                           <i className="fas fa-long-arrow-alt-right"></i>
@@ -270,7 +270,7 @@ export default function ProgramArea() {
               <div className="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div className="cources-single-items">
                   <Image src="/assets/img/element/program-main-item-shape.png" alt="Program Main Item Shape Shape Element" width={419} height={470} className="cources-bg" />
-                  <Link href="/program-details" className="c-image mb-3 position-relative overflow-hidden">
+                  <Link href="/#programmes" className="c-image mb-3 position-relative overflow-hidden">
                     <Image src="/assets/img/blog/course-7.png" alt="Blog Post Course" width={370} height={240} className="rounded-3 w-100" />
                   </Link>
                   <div className="c-content px-1">
@@ -283,14 +283,14 @@ export default function ProgramArea() {
                       </span>
                     </div>
                     <h3 className="mb-3">
-                      <Link href="/program-details" className="black visible-slowly-bottom">
+                      <Link href="/#programmes" className="black visible-slowly-bottom">
                         Sensory Play Class
                       </Link>
                     </h3>
                     <div className="border-bottom-deshed"></div>
                     <div
                       className="btn-grp-ele d-flex align-items-center justify-content-between gap-2 flex-wrap">
-                      <Link href="/program-details" className="common_btn common_btn_outline text-nowrap">
+                      <Link href="/#programmes" className="common_btn common_btn_outline text-nowrap">
                         Join Now
                         <span className="icon_wrapper w-36 h-36 min-w-36">
                           <i className="fas fa-long-arrow-alt-right"></i>
@@ -313,7 +313,7 @@ export default function ProgramArea() {
               <div className="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                 <div className="cources-single-items">
                   <Image src="/assets/img/element/program-main-item-shape.png" alt="Program Main Item Shape Shape Element" width={419} height={470} className="cources-bg" />
-                  <Link href="/program-details" className="c-image mb-3 position-relative overflow-hidden">
+                  <Link href="/#programmes" className="c-image mb-3 position-relative overflow-hidden">
                     <Image src="/assets/img/blog/course-8.png" alt="Blog Post Course" width={371} height={240} className="rounded-3 w-100" />
                   </Link>
                   <div className="c-content px-1">
@@ -326,14 +326,14 @@ export default function ProgramArea() {
                       </span>
                     </div>
                     <h3 className="mb-3">
-                      <Link href="/program-details" className="black visible-slowly-bottom">
+                      <Link href="/#programmes" className="black visible-slowly-bottom">
                         Early Literacy Class
                       </Link>
                     </h3>
                     <div className="border-bottom-deshed"></div>
                     <div
                       className="btn-grp-ele d-flex align-items-center justify-content-between gap-2 flex-wrap">
-                      <Link href="/program-details" className="common_btn common_btn_outline text-nowrap">
+                      <Link href="/#programmes" className="common_btn common_btn_outline text-nowrap">
                         Join Now
                         <span className="icon_wrapper w-36 h-36 min-w-36">
                           <i className="fas fa-long-arrow-alt-right"></i>
@@ -356,7 +356,7 @@ export default function ProgramArea() {
               <div className="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div className="cources-single-items">
                   <Image src="/assets/img/element/program-main-item-shape.png" alt="Program Main Item Shape Shape Element" width={419} height={470} className="cources-bg" />
-                  <Link href="/program-details" className="c-image mb-3 position-relative overflow-hidden">
+                  <Link href="/#programmes" className="c-image mb-3 position-relative overflow-hidden">
                     <Image src="/assets/img/blog/course-9.png" alt="Blog Post Course" width={371} height={240} className="rounded-3 w-100" />
                   </Link>
                   <div className="c-content px-1">
@@ -369,14 +369,14 @@ export default function ProgramArea() {
                       </span>
                     </div>
                     <h3 className="mb-3">
-                      <Link href="/program-details" className="black visible-slowly-bottom">
+                      <Link href="/#programmes" className="black visible-slowly-bottom">
                         Writing & Pre-Writing Class
                       </Link>
                     </h3>
                     <div className="border-bottom-deshed"></div>
                     <div
                       className="btn-grp-ele d-flex align-items-center justify-content-between gap-2 flex-wrap">
-                      <Link href="/program-details" className="common_btn common_btn_outline text-nowrap">
+                      <Link href="/#programmes" className="common_btn common_btn_outline text-nowrap">
                         Join Now
                         <span className="icon_wrapper w-36 h-36 min-w-36">
                           <i className="fas fa-long-arrow-alt-right"></i>

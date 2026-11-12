@@ -23,7 +23,7 @@ export default function LearningAreaThree() {
                   </h2>
                   <div
                     className="d-flex justify-content-center align-items-center flex-wrap gap-xxl-4 gap-xl-3 gap-2">
-                    <Link href="/contact" className="common_btn text-nowrap">
+                    <Link href="/#contact" className="common_btn text-nowrap">
                       Apply nOW
                       <span className="icon_wrapper">
                         <i className="fas fa-long-arrow-alt-right"></i>

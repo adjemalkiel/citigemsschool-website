@@ -90,13 +90,13 @@ export default function CoursesAreaThree() {
               <SwiperSlide className="swiper-slide">
                 <div className="cources-single-items class-program_items4">
                   <Image src="/assets/img/element/class-bg4.png" alt="Class Bg" width={419} height={478} className="cources-bg" />
-                  <Link href="/program-details"
+                  <Link href="/#programmes"
                     className="c-image mb-3 position-relative overflow-hidden rounded">
                     <Image src="/assets/img/blog/class-program1.png" alt="Blog Post Class Program" width={371} height={224} className="rounded-3 w-100" />
                   </Link>
                   <div className="c-content px-1">
                     <h3 className="mb-1 lh-1">
-                      <Link href="/program-details" className="black lh-1 visible-slowly-bottom">
+                      <Link href="/#programmes" className="black lh-1 visible-slowly-bottom">
                         Infant Care
                       </Link>
                     </h3>
@@ -131,13 +131,13 @@ export default function CoursesAreaThree() {
               <SwiperSlide className="swiper-slide">
                 <div className="cources-single-items class-program_items4">
                   <Image src="/assets/img/element/class-bg4.png" alt="Class Bg" width={419} height={478} className="cources-bg" />
-                  <Link href="/program-details"
+                  <Link href="/#programmes"
                     className="c-image mb-3 position-relative overflow-hidden rounded">
                     <Image src="/assets/img/blog/class-program2.png" alt="Blog Post Class Program" width={371} height={224} className="rounded-3 w-100" />
                   </Link>
                   <div className="c-content px-1">
                     <h3 className="mb-1 lh-1">
-                      <Link href="/program-details" className="black lh-1 visible-slowly-bottom">
+                      <Link href="/#programmes" className="black lh-1 visible-slowly-bottom">
                         Toddler Care
                       </Link>
                     </h3>
@@ -172,13 +172,13 @@ export default function CoursesAreaThree() {
               <SwiperSlide className="swiper-slide">
                 <div className="cources-single-items class-program_items4">
                   <Image src="/assets/img/element/class-bg4.png" alt="Class Bg" width={419} height={478} className="cources-bg" />
-                  <Link href="/program-details"
+                  <Link href="/#programmes"
                     className="c-image mb-3 position-relative overflow-hidden rounded">
                     <Image src="/assets/img/blog/class-program3.png" alt="Blog Post Class Program" width={371} height={224} className="rounded-3 w-100" />
                   </Link>
                   <div className="c-content px-1">
                     <h3 className="mb-1 lh-1">
-                      <Link href="/program-details" className="black lh-1 visible-slowly-bottom">
+                      <Link href="/#programmes" className="black lh-1 visible-slowly-bottom">
                         Preschool Preparation
                       </Link>
                     </h3>

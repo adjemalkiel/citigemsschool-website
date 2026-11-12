@@ -23,7 +23,7 @@ export default function TestimonialAreaTwo() {
               </div>
             </div>
             <div className="">
-              <Link href="/testimonial" className="common_btn text-nowrap">
+              <Link href="/" className="common_btn text-nowrap">
                 Read More Reviews
                 <span className="icon_wrapper">
                   <i className="fas fa-long-arrow-alt-right"></i>

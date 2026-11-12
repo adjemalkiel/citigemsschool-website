@@ -21,19 +21,19 @@ export default function ProgramAreaTwo() {
             <div className="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
               <div className="cources-single-items">
                 <Image src="/assets/img/element/program-shpae-bg003.png" alt="Program Shpae Bg" width={419} height={433} className="cources-bg" />
-                <Link href="/program-details" className="c-image mb-3 position-relative overflow-hidden">
+                <Link href="/#programmes" className="c-image mb-3 position-relative overflow-hidden">
                   <Image src="/assets/img/blog/program-thumb-box1.png" alt="Blog Post Program Thumb Box" width={371} height={221} className="rounded-3 w-100" />
                 </Link>
                 <div className="c-content px-1 text-center">
                   <h3 className="mb-2 lh-1">
-                    <Link href="/program-details" className="black lh-1 visible-slowly-bottom">
+                    <Link href="/#programmes" className="black lh-1 visible-slowly-bottom">
                       Early Learning Basics
                     </Link>
                   </h3>
                   <p className="mb-xl-3 mb-lg-2 mb-1">
                     Foundational lessons in colors, shapes, letters, and numbers through playful.
                   </p>
-                  <Link href="/program-details" className="read-more-button justify-content-center">
+                  <Link href="/#programmes" className="read-more-button justify-content-center">
                     Explore Programs
                     <i className="fas fa-arrow-right"></i>
                   </Link>
@@ -43,19 +43,19 @@ export default function ProgramAreaTwo() {
             <div className="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
               <div className="cources-single-items">
                 <Image src="/assets/img/element/program-shpae-bg003.png" alt="Program Shpae Bg" width={419} height={433} className="cources-bg" />
-                <Link href="/program-details" className="c-image mb-3 position-relative overflow-hidden">
+                <Link href="/#programmes" className="c-image mb-3 position-relative overflow-hidden">
                   <Image src="/assets/img/blog/program-thumb-box2.png" alt="Blog Post Program Thumb Box" width={370} height={221} className="rounded-3 w-100" />
                 </Link>
                 <div className="c-content px-1 text-center">
                   <h3 className="mb-2 lh-1">
-                    <Link href="/program-details" className="black lh-1 visible-slowly-bottom">
+                    <Link href="/#programmes" className="black lh-1 visible-slowly-bottom">
                       Storytime & Language Skills
                     </Link>
                   </h3>
                   <p className="mb-xl-3 mb-lg-2 mb-1">
                     Daily storytelling, rhymes, and conversations to boost early literacy
                   </p>
-                  <Link href="/program-details" className="read-more-button justify-content-center">
+                  <Link href="/#programmes" className="read-more-button justify-content-center">
                     Explore Programs
                     <i className="fas fa-arrow-right"></i>
                   </Link>
@@ -65,19 +65,19 @@ export default function ProgramAreaTwo() {
             <div className="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
               <div className="cources-single-items">
                 <Image src="/assets/img/element/program-shpae-bg003.png" alt="Program Shpae Bg" width={419} height={433} className="cources-bg" />
-                <Link href="/program-details" className="c-image mb-3 position-relative overflow-hidden">
+                <Link href="/#programmes" className="c-image mb-3 position-relative overflow-hidden">
                   <Image src="/assets/img/blog/program-thumb-box3.png" alt="Blog Post Program Thumb Box" width={371} height={221} className="rounded-3 w-100" />
                 </Link>
                 <div className="c-content px-1 text-center">
                   <h3 className="mb-2 lh-1">
-                    <Link href="/program-details" className="black lh-1 visible-slowly-bottom">
+                    <Link href="/#programmes" className="black lh-1 visible-slowly-bottom">
                       Movement & Outdoor Play
                     </Link>
                   </h3>
                   <p className="mb-xl-3 mb-lg-2 mb-1">
                     Physical activities, games, and outdoor exploration to improve .
                   </p>
-                  <Link href="/program-details" className="read-more-button justify-content-center">
+                  <Link href="/#programmes" className="read-more-button justify-content-center">
                     Explore Programs
                     <i className="fas fa-arrow-right"></i>
                   </Link>

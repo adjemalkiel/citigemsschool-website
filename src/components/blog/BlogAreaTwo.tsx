@@ -23,7 +23,7 @@ export default function BlogAreaTwo() {
               <div className="col-xl-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div className="cources-single-items">
                   <Image src="/assets/img/element/preschool-bg.png" alt="Preschool Bg" width={644} height={500} className="cources-bg" />
-                  <Link href="/blog-details"
+                  <Link href="/"
                     className="c-image mb-xxl-4 mb-3 px-xl-2 position-relative overflow-hidden">
                     <Image src="/assets/img/blog/blog2-grid1.png" alt="Blog Post Blog Grid" width={596} height={288} className="rounded-5 w-100" />
                     <span className="date-badge position-absolute bottom-0 start-0 m-xxl-4 m-3">
@@ -40,7 +40,7 @@ export default function BlogAreaTwo() {
                       </span>
                     </div>
                     <h3 className="mb-2 lh-1">
-                      <Link href="/blog-details" className="black visible-slowly-bottom">
+                      <Link href="/" className="black visible-slowly-bottom">
                         Why Storytelling Matters in Early Learning
                       </Link>
                     </h3>
@@ -54,7 +54,7 @@ export default function BlogAreaTwo() {
               <div className="col-xl-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div className="cources-single-items">
                   <Image src="/assets/img/element/preschool-bg.png" alt="Preschool Bg" width={644} height={500} className="cources-bg" />
-                  <Link href="/blog-details"
+                  <Link href="/"
                     className="c-image mb-xxl-4 mb-3 px-xl-2 position-relative overflow-hidden">
                     <Image src="/assets/img/blog/blog2-grid2.png" alt="Blog Post Blog Grid" width={596} height={288} className="rounded-5 w-100" />
                     <span className="date-badge position-absolute bottom-0 start-0 m-xxl-4 m-3">
@@ -71,7 +71,7 @@ export default function BlogAreaTwo() {
                       </span>
                     </div>
                     <h3 className="mb-2 lh-1">
-                      <Link href="/blog-details" className="black visible-slowly-bottom">
+                      <Link href="/" className="black visible-slowly-bottom">
                         How to Prepare Your Child for Preschool
                       </Link>
                     </h3>

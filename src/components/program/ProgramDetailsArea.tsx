@@ -172,7 +172,7 @@ export default function ProgramDetailsArea() {
                   </li>
                 </ul>
                 <div className="text-center">
-                  <Link href="/contact"
+                  <Link href="/#contact"
                     className="common_btn mb-3 w-100 justify-content-between text-center common_btn_outline text-nowrap">
                     <span className="text-center">
                       THE COURSE FREE $69.00
@@ -181,7 +181,7 @@ export default function ProgramDetailsArea() {
                       <i className="fas fa-long-arrow-alt-right"></i>
                     </span>
                   </Link>
-                  <Link href="/contact"
+                  <Link href="/#contact"
                     className="common_btn w-100 justify-content-between text-center text-nowrap">
                     Get tickets now
                     <span className="icon_wrapper w-36 min-w-36 h-36">

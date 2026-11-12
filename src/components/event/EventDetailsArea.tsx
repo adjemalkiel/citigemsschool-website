@@ -154,7 +154,7 @@ export default function EventDetailsArea() {
                 </div>
               </div>
               <div className="text-start wow fadeInUp" data-wow-delay="0.8s">
-                <Link href="/contact" className="common_btn text-nowrap">
+                <Link href="/#contact" className="common_btn text-nowrap">
                   REGISTER YOURSELF
                   <span className="icon_wrapper">
                     <i className="fas fa-long-arrow-alt-right"></i>

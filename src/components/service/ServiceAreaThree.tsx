@@ -27,7 +27,7 @@ export default function ServiceAreaThree() {
                 <Image src="/assets/img/element/ser-p-item-shape1.png" alt="Ser P Item Shape Shape Element" width={306} height={312} className="cources-bg d-xl-block d-none" />
                 <div className="">
                   <h3 className="mb-3 lh-1">
-                    <Link href="/program-details" className="black d-block lh-sm visible-slowly-bottom">
+                    <Link href="/#programmes" className="black d-block lh-sm visible-slowly-bottom">
                       Infant Care
                     </Link>
                   </h3>
@@ -37,7 +37,7 @@ export default function ServiceAreaThree() {
                   <p className="pra-clr mb-3 max-w-258px mx-auto">
                     Gentle, attentive care for newborns and infants, ensuring
                   </p>
-                  <Link href="/program-details" className="read-more-button text-p1 justify-content-center">
+                  <Link href="/#programmes" className="read-more-button text-p1 justify-content-center">
                     Read More
                     <i className="fas fa-arrow-right"></i>
                   </Link>
@@ -49,7 +49,7 @@ export default function ServiceAreaThree() {
                 <Image src="/assets/img/element/ser-p-item-shape2.png" alt="Ser P Item Shape Shape Element" width={306} height={312} className="cources-bg d-xl-block d-none" />
                 <div className="">
                   <h3 className="mb-3 lh-1">
-                    <Link href="/program-details" className="black d-block lh-sm visible-slowly-bottom">
+                    <Link href="/#programmes" className="black d-block lh-sm visible-slowly-bottom">
                       Homework Assistance
                     </Link>
                   </h3>
@@ -59,7 +59,7 @@ export default function ServiceAreaThree() {
                   <p className="pra-clr mb-3 max-w-258px mx-auto">
                     Educational support to help children complete homework
                   </p>
-                  <Link href="/program-details" className="read-more-button text-p1 justify-content-center">
+                  <Link href="/#programmes" className="read-more-button text-p1 justify-content-center">
                     Read More
                     <i className="fas fa-arrow-right"></i>
                   </Link>
@@ -71,7 +71,7 @@ export default function ServiceAreaThree() {
                 <Image src="/assets/img/element/ser-p-item-shape3.png" alt="Ser P Item Shape Shape Element" width={306} height={312} className="cources-bg d-xl-block d-none" />
                 <div className="">
                   <h3 className="mb-3 lh-1">
-                    <Link href="/program-details" className="black d-block lh-sm visible-slowly-bottom">
+                    <Link href="/#programmes" className="black d-block lh-sm visible-slowly-bottom">
                       Meal Preparation
                     </Link>
                   </h3>
@@ -81,7 +81,7 @@ export default function ServiceAreaThree() {
                   <p className="pra-clr mb-3 max-w-258px mx-auto">
                     Nutritious child-friendly meals prepared with care, following any
                   </p>
-                  <Link href="/program-details" className="read-more-button text-p1 justify-content-center">
+                  <Link href="/#programmes" className="read-more-button text-p1 justify-content-center">
                     Read More
                     <i className="fas fa-arrow-right"></i>
                   </Link>
@@ -93,7 +93,7 @@ export default function ServiceAreaThree() {
                 <Image src="/assets/img/element/ser-p-item-shape4.png" alt="Ser P Item Shape Shape Element" width={306} height={312} className="cources-bg d-xl-block d-none" />
                 <div className="">
                   <h3 className="mb-3 lh-1">
-                    <Link href="/program-details" className="black d-block lh-sm visible-slowly-bottom">
+                    <Link href="/#programmes" className="black d-block lh-sm visible-slowly-bottom">
                       Light Housekeeping
                     </Link>
                   </h3>
@@ -103,7 +103,7 @@ export default function ServiceAreaThree() {
                   <p className="pra-clr mb-3 max-w-258px mx-auto">
                     Child-related cleaning and organization to keep your home
                   </p>
-                  <Link href="/program-details" className="read-more-button text-p1 justify-content-center">
+                  <Link href="/#programmes" className="read-more-button text-p1 justify-content-center">
                     Read More
                     <i className="fas fa-arrow-right"></i>
                   </Link>

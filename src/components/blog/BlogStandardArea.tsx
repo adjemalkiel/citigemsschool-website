@@ -13,7 +13,7 @@ export default function BlogStandardArea() {
                 <div className="row g-4">
                   <div className="col-12">
                     <div className="blog-standard-item">
-                      <Link href="/blog-details" className="thumb d-block mb-4 w-100 wow fadeInUp"
+                      <Link href="/" className="thumb d-block mb-4 w-100 wow fadeInUp"
                         data-wow-delay="0.4s">
                         <Image src="/assets/img/blog/blog-standard-item1.png" alt="Blog Post Blog Standard Item" width={853} height={400} className="w-100" />
                       </Link>
@@ -33,7 +33,7 @@ export default function BlogStandardArea() {
                         </span>
                       </div>
                       <h2 className="wow mb-2 fw-medium fs-32px fw-bold fadeInUp" data-wow-delay="0.5s">
-                        <Link href="/blog-details">
+                        <Link href="/">
                           Fun Learning Activities for Kindergarten Kids
                         </Link>
                       </h2>
@@ -42,7 +42,7 @@ export default function BlogStandardArea() {
                         literacy, numeracy, social skills, and
                         curiosity in a joyful kindergarten environment.
                       </p>
-                      <Link href="/blog-details" className="common_btn d-inline-flex text-nowrap">
+                      <Link href="/" className="common_btn d-inline-flex text-nowrap">
                         Blog DETAILS
                         <span className="icon_wrapper w-36 h-36 min-w-36">
                           <i className="fas fa-long-arrow-alt-right"></i>
@@ -52,7 +52,7 @@ export default function BlogStandardArea() {
                   </div>
                   <div className="col-12">
                     <div className="blog-standard-item">
-                      <Link href="/blog-details" className="thumb d-block mb-4 w-100 wow fadeInUp"
+                      <Link href="/" className="thumb d-block mb-4 w-100 wow fadeInUp"
                         data-wow-delay="0.4s">
                         <Image src="/assets/img/blog/blog-standard-item2.png" alt="Blog Post Blog Standard Item" width={853} height={400} className="w-100" />
                       </Link>
@@ -72,7 +72,7 @@ export default function BlogStandardArea() {
                         </span>
                       </div>
                       <h2 className="wow mb-2 fw-medium fs-32px fw-bold fadeInUp" data-wow-delay="0.5s">
-                        <Link href="/blog-details">
+                        <Link href="/">
                           Creative Art Ideas for Young Learners
                         </Link>
                       </h2>
@@ -81,7 +81,7 @@ export default function BlogStandardArea() {
                         imagination, and help young learners express ideas
                         confidently through colorful, hands-on creative experiences.
                       </p>
-                      <Link href="/blog-details" className="common_btn d-inline-flex text-nowrap">
+                      <Link href="/" className="common_btn d-inline-flex text-nowrap">
                         Blog DETAILS
                         <span className="icon_wrapper w-36 h-36 min-w-36">
                           <i className="fas fa-long-arrow-alt-right"></i>
@@ -91,7 +91,7 @@ export default function BlogStandardArea() {
                   </div>
                   <div className="col-12">
                     <div className="blog-standard-item">
-                      <Link href="/blog-details" className="thumb d-block mb-4 w-100 wow fadeInUp"
+                      <Link href="/" className="thumb d-block mb-4 w-100 wow fadeInUp"
                         data-wow-delay="0.4s">
                         <Image src="/assets/img/blog/blog-standard-item3.png" alt="Blog Post Blog Standard Item" width={853} height={400} className="w-100" />
                       </Link>
@@ -111,7 +111,7 @@ export default function BlogStandardArea() {
                         </span>
                       </div>
                       <h2 className="wow mb-2 fw-medium fs-32px fw-bold fadeInUp" data-wow-delay="0.5s">
-                        <Link href="/blog-details">
+                        <Link href="/">
                           Healthy Habits for Kindergarten Children
                         </Link>
                       </h2>
@@ -120,7 +120,7 @@ export default function BlogStandardArea() {
                         physical activity, good hygiene, and
                         positive behaviors that support lifelong wellness and growth.
                       </p>
-                      <Link href="/blog-details" className="common_btn d-inline-flex text-nowrap">
+                      <Link href="/" className="common_btn d-inline-flex text-nowrap">
                         Blog DETAILS
                         <span className="icon_wrapper w-36 h-36 min-w-36">
                           <i className="fas fa-long-arrow-alt-right"></i>
@@ -237,7 +237,7 @@ export default function BlogStandardArea() {
                   <div className="fs-32px border-bottom pb-3 mb-4 fw-bold">Recent Post</div>
                   <div className="d-flex flex-column gap-4">
                     <div className="recent-right-item">
-                      <Link href="/blog-details" className="thumb w-100 mb-3 d-block">
+                      <Link href="/" className="thumb w-100 mb-3 d-block">
                         <Image src="/assets/img/blog/recent-side1.png" alt="Blog Post Recent Side" width={355} height={148} className="w-100 rounded-4" />
                       </Link>
                       <div className="cont">
@@ -245,13 +245,13 @@ export default function BlogStandardArea() {
                           <i className="fas fa-calendar"></i>
                           April 12, 2026
                         </div>
-                        <Link href="/blog-details" className="fs-20px">
+                        <Link href="/" className="fs-20px">
                           Fun & Interactive Learning Activities for Kindergarten Kids
                         </Link>
                       </div>
                     </div>
                     <div className="recent-right-item">
-                      <Link href="/blog-details" className="thumb w-100 mb-3 d-block">
+                      <Link href="/" className="thumb w-100 mb-3 d-block">
                         <Image src="/assets/img/blog/recent-side2.png" alt="Blog Post Recent Side" width={355} height={148} className="w-100 rounded-4" />
                       </Link>
                       <div className="cont">
@@ -259,13 +259,13 @@ export default function BlogStandardArea() {
                           <i className="fas fa-calendar"></i>
                           April 12, 2026
                         </div>
-                        <Link href="/blog-details" className="fs-20px">
+                        <Link href="/" className="fs-20px">
                           Why Play-Based Learning Is Essential for Early Education
                         </Link>
                       </div>
                     </div>
                     <div className="recent-right-item">
-                      <Link href="/blog-details" className="thumb w-100 mb-3 d-block">
+                      <Link href="/" className="thumb w-100 mb-3 d-block">
                         <Image src="/assets/img/blog/recent-side3.png" alt="Blog Post Recent Side" width={355} height={148} className="w-100 rounded-4" />
                       </Link>
                       <div className="cont">
@@ -273,7 +273,7 @@ export default function BlogStandardArea() {
                           <i className="fas fa-calendar"></i>
                           April 12, 2026
                         </div>
-                        <Link href="/blog-details" className="fs-20px">
+                        <Link href="/" className="fs-20px">
                           Healthy Daily Habits Every Kindergarten Child Should Learn
                         </Link>
                       </div>

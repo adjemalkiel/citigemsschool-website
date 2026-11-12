@@ -1,13 +1,11 @@
-import HomeTwo from "@/components/homes/home-2/HomeTwo";
-import { Metadata } from "next"
-export const metadata: Metadata = {
-  title: "Home Two Citigems Bilingual School",
-  description: "Home One  — Citigems Bilingual School.",
-}
+import HomeHashRedirect from "@/components/common/HomeHashRedirect";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Citigems Bilingual School",
+  description: "Citigems Bilingual School.",
+};
 
 export default function HomeTwoPage() {
-  return (
-    <HomeTwo />
-  )
+  return <HomeHashRedirect />;
 }

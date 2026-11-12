@@ -100,7 +100,7 @@ export default function AboutAreaThree() {
                   </div>
                 </div>
                 <div className="d-flex flex-sm-nowrap flex-wrap align-items-center gap-xxl-5 gap-lg-4 gap-3">
-                  <Link href="/about" className="common_btn text-nowrap">
+                  <Link href="/#about" className="common_btn text-nowrap">
                     Learn More About Us
                     <span className="icon_wrapper">
                       <i className="fas fa-long-arrow-alt-right"></i>

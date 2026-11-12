@@ -6,7 +6,7 @@ services:
     container_name: citigemsschool-web
     restart: unless-stopped
     ports:
-      - "127.0.0.1:3030:3000"
+      - "3030:3000"
     environment:
       NODE_ENV: production
       PORT: "3000"
@@ -22,4 +22,4 @@ services:
       interval: 15s
       timeout: 5s
       retries: 10
-      start_period: 30s
+      start_period: 40s

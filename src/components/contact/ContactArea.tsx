@@ -55,7 +55,7 @@ export default function ContactArea() {
                   <div className="cont">
                     <span>Location</span>
                     <a href="#">
-                      C/3227 Agla Agongbomey, Cotonou
+                      Agla Agongbomey, Cotonou
                     </a>
                   </div>
                 </div>

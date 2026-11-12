@@ -1,13 +1,11 @@
-import ComingSoon from "@/components/inner-pages/coming-soon/ComingSoon";
+import HomeHashRedirect from "@/components/common/HomeHashRedirect";
+import { Metadata } from "next";
 
-import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Coming Soon Citigems Bilingual School",
-  description: "Coming Soon — Citigems Bilingual School.",
-}
+  title: "Citigems Bilingual School",
+  description: "Citigems Bilingual School.",
+};
 
 export default function ComingSoonPage() {
-  return (
-    <ComingSoon />
-  )
+  return <HomeHashRedirect />;
 }

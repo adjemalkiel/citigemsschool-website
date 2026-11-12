@@ -49,27 +49,27 @@ export default function FooterThree() {
                 <h3 className="mb-xxl-4 mb-3 text-dark fw-bold">Our Services</h3>
                 <ul className="footer-widget-link footer-widget-link-black">
                   <li>
-                    <Link href="/contact">
+                    <Link href="/#contact">
                       <i className="fas fa-angle-double-right"></i> Infant Care
                     </Link>
                   </li>
                   <li>
-                    <Link href="/contact">
+                    <Link href="/#contact">
                       <i className="fas fa-angle-double-right"></i> Toddler Care
                     </Link>
                   </li>
                   <li>
-                    <Link href="/event">
+                    <Link href="/">
                       <i className="fas fa-angle-double-right"></i> After-School Care
                     </Link>
                   </li>
                   <li>
-                    <Link href="/event">
+                    <Link href="/">
                       <i className="fas fa-angle-double-right"></i> Part-Time Nanny
                     </Link>
                   </li>
                   <li>
-                    <Link href="/event">
+                    <Link href="/">
                       <i className="fas fa-angle-double-right"></i> Learning Support
                     </Link>
                   </li>
@@ -81,27 +81,27 @@ export default function FooterThree() {
                 <h3 className="mb-xxl-4 mb-3 text-dark fw-bold">Quick Links</h3>
                 <ul className="footer-widget-link footer-widget-link-black">
                   <li>
-                    <Link href="/about">
+                    <Link href="/#about">
                       <i className="fas fa-angle-double-right"></i> About Us
                     </Link>
                   </li>
                   <li>
-                    <Link href="/event">
+                    <Link href="/">
                       <i className="fas fa-angle-double-right"></i> Our Event
                     </Link>
                   </li>
                   <li>
-                    <Link href="/contact">
+                    <Link href="/#fees">
                       <i className="fas fa-angle-double-right"></i> Pricing Plans
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog">
+                    <Link href="/">
                       <i className="fas fa-angle-double-right"></i> Blog
                     </Link>
                   </li>
                   <li>
-                    <Link href="/contact">
+                    <Link href="/#contact">
                       <i className="fas fa-angle-double-right"></i> Contact Us
                     </Link>
                   </li>
@@ -122,7 +122,7 @@ export default function FooterThree() {
                       Jun 26, 2024
                     </div>
                     <h4>
-                      <Link href="/blog-details">
+                      <Link href="/">
                         That jerk Form Finance
                         really threw me
                       </Link>
@@ -140,7 +140,7 @@ export default function FooterThree() {
                       Jun 26, 2024
                     </div>
                     <h4>
-                      <Link href="/blog-details">
+                      <Link href="/">
                         That jerk Form Finance
                         really threw me
                       </Link>
@@ -155,10 +155,10 @@ export default function FooterThree() {
               &copy; All Copyright {new Date().getFullYear()} by <a href="#" className="text-theme fw-semibold">Citigems.</a>
             </p>
             <div className="footer-bottom-link gap-4 d-flex align-items-center flex-wrap">
-              <Link href="/contact" className="fw-medium text-dark">
+              <Link href="/#contact" className="fw-medium text-dark">
                 Terms & Condition
               </Link>
-              <Link href="/contact" className="fw-medium text-dark">
+              <Link href="/#contact" className="fw-medium text-dark">
                 Privacy Policy
               </Link>
             </div>

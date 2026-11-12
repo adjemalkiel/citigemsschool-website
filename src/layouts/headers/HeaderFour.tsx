@@ -65,7 +65,7 @@ export default function HeaderFour() {
                 <button type="button" onClick={() => setSearchOpen(true)} className="search-trigger d-center rounded-circle search-icon border-0 p-0" aria-label="Search">
                   <i className="fa-solid fa-magnifying-glass"></i>
                 </button>
-                <Link href="/contact" className="common_btn d-sm-flex d-none text-nowrap">
+                <Link href="/#contact" className="common_btn d-sm-flex d-none text-nowrap">
                   start learning
                   <span className="icon_wrapper">
                     <i className="fas fa-long-arrow-alt-right"></i>

@@ -1,28 +1,31 @@
-import BlogAreaThree from "@/components/blog/BlogAreaThree";
-import ChooseAreaOne from "@/components/choose/ChooseAreaOne";
+"use client";
+
+import AboutOverview from "@/components/about/AboutOverview";
 import Breadcrumb from "@/components/common/Breadcrumb";
-import LearningAreaThree from "@/components/learning/LearningAreaThree";
+import CtaAreaOne from "@/components/cta/CtaAreaOne";
 import PricingAreaThree from "@/components/pricing/PricingAreaThree";
-import ProgramAreaOne from "@/components/program/ProgramAreaOne";
-import ProgressAreaAbout from "@/components/progress/ProgressAreaAbout";
-import TestimonialAreaThree from "@/components/testimonial/TestimonialAreaThree";
-import FooterFour from "@/layouts/footers/FooterFour";
-import HeaderFour from "@/layouts/headers/HeaderFour";
+import { useT } from "@/i18n/LocaleProvider";
+import FooterOne from "@/layouts/footers/FooterOne";
+import HeaderOne from "@/layouts/headers/HeaderOne";
 import Wrapper from "@/layouts/Wrapper";
 
 export default function About() {
+  const t = useT();
+
   return (
     <Wrapper>
-      <HeaderFour />
-      <Breadcrumb title="About Us" subtitle="About Us" />
-      <ProgramAreaOne style_2={true} />
-      <ChooseAreaOne />
-      <ProgressAreaAbout />
-      <PricingAreaThree />
-      <TestimonialAreaThree />
-      <BlogAreaThree />
-      <LearningAreaThree />
-      <FooterFour />
+      <HeaderOne />
+      <Breadcrumb title={t("page.about.crumb")} subtitle={t("page.about.crumb")} />
+      <div id="about">
+        <AboutOverview />
+      </div>
+      <div id="fees">
+        <PricingAreaThree />
+      </div>
+      <div id="contact">
+        <CtaAreaOne />
+      </div>
+      <FooterOne />
     </Wrapper>
-  )
+  );
 }

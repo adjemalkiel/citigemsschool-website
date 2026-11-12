@@ -35,3 +35,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# graphify
+graphify-out/
+**/graphify-out/
+
+# local image backups / deploy noise
+*.bak
+*.bak2
+*.bak-*
+*.purple.bak
+*.src1x.bak
+.deploy-stamp

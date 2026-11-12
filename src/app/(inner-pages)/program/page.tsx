@@ -1,15 +1,19 @@
-import Program from '@/components/inner-pages/program/Program'
+import HomeHashRedirect from "@/components/common/HomeHashRedirect";
+import { Metadata } from "next";
 
-import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Program Citigems Bilingual School",
-  description: "Program — Citigems Bilingual School.",
-}
-
-
+  title: "Programmes",
+  description:
+    "Programmes Citigems : maternelle / Nursery, primaire / Primary et parcours bilingue FR + EN à Cotonou.",
+  alternates: { canonical: "https://citigemsschool.com/program" },
+  openGraph: {
+    title: "Programmes | Citigems Bilingual School",
+    description:
+      "Maternelle, primaire et bilingue français-anglais à Agla Agongbomey, Cotonou.",
+    url: "https://citigemsschool.com/program",
+  },
+};
 
 export default function ProgramPage() {
-  return (
-    <Program />
-  )
+  return <HomeHashRedirect hash="programmes" />;
 }

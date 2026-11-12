@@ -18,7 +18,7 @@ export default function BlogArea() {
                       <span className="tags-single">Learning</span>
                       <span className="tags-single">06 Min Read</span>
                     </div>
-                    <Link href="/blog-details"
+                    <Link href="/"
                       className="news-image image-box-effect position-relative overflow-hidden">
                       <Image src="/assets/img/blog/blog-grid-u1.png" alt="Blog Post Blog Grid U" width={327} height={231} className="rounded-3 w-100 img" />
                       <Image src="/assets/img/blog/blog-grid-u1.png" alt="Blog Post Blog Grid U" width={327} height={231} className="rounded-3 w-100 img" />
@@ -30,11 +30,11 @@ export default function BlogArea() {
                       <i className="far fa-clock text-p1"></i> 09 Comment
                     </span>
                     <div className="new-cont-title">
-                      <Link href="/blog-details" className="black visible-slowly-bottom">
+                      <Link href="/" className="black visible-slowly-bottom">
                         Fun Ways to Introduce Your Child to School
                       </Link>
                     </div>
-                    <Link href="/blog-details" className="read-more d-flex align-items-center gap-2">
+                    <Link href="/" className="read-more d-flex align-items-center gap-2">
                       VIEW DETAILS <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
                   </div>
@@ -49,7 +49,7 @@ export default function BlogArea() {
                       <span className="tags-single">Learning</span>
                       <span className="tags-single">06 Min Read</span>
                     </div>
-                    <Link href="/blog-details"
+                    <Link href="/"
                       className="news-image image-box-effect position-relative overflow-hidden">
                       <Image src="/assets/img/blog/blog-grid-u1.png" alt="Blog Post Blog Grid U" width={327} height={231} className="rounded-3 w-100 img" />
                       <Image src="/assets/img/blog/blog-grid-u1.png" alt="Blog Post Blog Grid U" width={327} height={231} className="rounded-3 w-100 img" />
@@ -61,11 +61,11 @@ export default function BlogArea() {
                       <i className="far fa-clock text-p1"></i> 09 Comment
                     </span>
                     <div className="new-cont-title">
-                      <Link href="/blog-details" className="black visible-slowly-bottom">
+                      <Link href="/" className="black visible-slowly-bottom">
                         Parent’s Guide to Kindergarten Enrollment
                       </Link>
                     </div>
-                    <Link href="/blog-details" className="read-more d-flex align-items-center gap-2">
+                    <Link href="/" className="read-more d-flex align-items-center gap-2">
                       VIEW DETAILS <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
                   </div>
@@ -80,7 +80,7 @@ export default function BlogArea() {
                       <span className="tags-single">Learning</span>
                       <span className="tags-single">06 Min Read</span>
                     </div>
-                    <Link href="/blog-details"
+                    <Link href="/"
                       className="news-image image-box-effect position-relative overflow-hidden">
                       <Image src="/assets/img/blog/blog-grid-u1.png" alt="Blog Post Blog Grid U" width={327} height={231} className="rounded-3 w-100 img" />
                       <Image src="/assets/img/blog/blog-grid-u1.png" alt="Blog Post Blog Grid U" width={327} height={231} className="rounded-3 w-100 img" />
@@ -92,11 +92,11 @@ export default function BlogArea() {
                       <i className="far fa-clock text-p1"></i> 09 Comment
                     </span>
                     <div className="new-cont-title">
-                      <Link href="/blog-details" className="black visible-slowly-bottom">
+                      <Link href="/" className="black visible-slowly-bottom">
                         How to Enroll Your Child Easily in Our Kindergarten
                       </Link>
                     </div>
-                    <Link href="/blog-details" className="read-more d-flex align-items-center gap-2">
+                    <Link href="/" className="read-more d-flex align-items-center gap-2">
                       VIEW DETAILS <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
                   </div>
@@ -111,7 +111,7 @@ export default function BlogArea() {
                       <span className="tags-single">Learning</span>
                       <span className="tags-single">06 Min Read</span>
                     </div>
-                    <Link href="/blog-details"
+                    <Link href="/"
                       className="news-image image-box-effect position-relative overflow-hidden">
                       <Image src="/assets/img/blog/blog-grid-u4.png" alt="Blog Post Blog Grid U" width={327} height={231} className="rounded-3 w-100 img" />
                       <Image src="/assets/img/blog/blog-grid-u4.png" alt="Blog Post Blog Grid U" width={327} height={231} className="rounded-3 w-100 img" />
@@ -123,11 +123,11 @@ export default function BlogArea() {
                       <i className="far fa-clock text-p1"></i> 09 Comment
                     </span>
                     <div className="new-cont-title">
-                      <Link href="/blog-details" className="black visible-slowly-bottom">
+                      <Link href="/" className="black visible-slowly-bottom">
                         Creative Ways to Teach Numbers and Letters
                       </Link>
                     </div>
-                    <Link href="/blog-details" className="read-more d-flex align-items-center gap-2">
+                    <Link href="/" className="read-more d-flex align-items-center gap-2">
                       VIEW DETAILS <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
                   </div>
@@ -142,7 +142,7 @@ export default function BlogArea() {
                       <span className="tags-single">Learning</span>
                       <span className="tags-single">06 Min Read</span>
                     </div>
-                    <Link href="/blog-details"
+                    <Link href="/"
                       className="news-image image-box-effect position-relative overflow-hidden">
                       <Image src="/assets/img/blog/blog-grid-u5.png" alt="Blog Post Blog Grid U" width={326} height={231} className="rounded-3 w-100 img" />
                       <Image src="/assets/img/blog/blog-grid-u5.png" alt="Blog Post Blog Grid U" width={326} height={231} className="rounded-3 w-100 img" />
@@ -154,11 +154,11 @@ export default function BlogArea() {
                       <i className="far fa-clock text-p1"></i> 09 Comment
                     </span>
                     <div className="new-cont-title">
-                      <Link href="/blog-details" className="black visible-slowly-bottom">
+                      <Link href="/" className="black visible-slowly-bottom">
                         Teaching Colors, Shapes Numbers Through Play
                       </Link>
                     </div>
-                    <Link href="/blog-details" className="read-more d-flex align-items-center gap-2">
+                    <Link href="/" className="read-more d-flex align-items-center gap-2">
                       VIEW DETAILS <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
                   </div>
@@ -173,7 +173,7 @@ export default function BlogArea() {
                       <span className="tags-single">Learning</span>
                       <span className="tags-single">06 Min Read</span>
                     </div>
-                    <Link href="/blog-details"
+                    <Link href="/"
                       className="news-image image-box-effect position-relative overflow-hidden">
                       <Image src="/assets/img/blog/blog-grid-u6.png" alt="Blog Post Blog Grid U" width={327} height={231} className="rounded-3 w-100 img" />
                       <Image src="/assets/img/blog/blog-grid-u6.png" alt="Blog Post Blog Grid U" width={327} height={231} className="rounded-3 w-100 img" />
@@ -185,11 +185,11 @@ export default function BlogArea() {
                       <i className="far fa-clock text-p1"></i> 09 Comment
                     </span>
                     <div className="new-cont-title">
-                      <Link href="/blog-details" className="black visible-slowly-bottom">
+                      <Link href="/" className="black visible-slowly-bottom">
                         Teaching Manners and Respect to Young Children
                       </Link>
                     </div>
-                    <Link href="/blog-details" className="read-more d-flex align-items-center gap-2">
+                    <Link href="/" className="read-more d-flex align-items-center gap-2">
                       VIEW DETAILS <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
                   </div>
@@ -204,7 +204,7 @@ export default function BlogArea() {
                       <span className="tags-single">Learning</span>
                       <span className="tags-single">06 Min Read</span>
                     </div>
-                    <Link href="/blog-details"
+                    <Link href="/"
                       className="news-image image-box-effect position-relative overflow-hidden">
                       <Image src="/assets/img/blog/blog-grid-u7.png" alt="Blog Post Blog Grid U" width={327} height={231} className="rounded-3 w-100 img" />
                       <Image src="/assets/img/blog/blog-grid-u7.png" alt="Blog Post Blog Grid U" width={327} height={231} className="rounded-3 w-100 img" />
@@ -216,11 +216,11 @@ export default function BlogArea() {
                       <i className="far fa-clock text-p1"></i> 09 Comment
                     </span>
                     <div className="new-cont-title">
-                      <Link href="/blog-details" className="black visible-slowly-bottom">
+                      <Link href="/" className="black visible-slowly-bottom">
                         Safe Learning Environments for Young Children
                       </Link>
                     </div>
-                    <Link href="/blog-details" className="read-more d-flex align-items-center gap-2">
+                    <Link href="/" className="read-more d-flex align-items-center gap-2">
                       VIEW DETAILS <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
                   </div>
@@ -235,7 +235,7 @@ export default function BlogArea() {
                       <span className="tags-single">Learning</span>
                       <span className="tags-single">06 Min Read</span>
                     </div>
-                    <Link href="/blog-details"
+                    <Link href="/"
                       className="news-image image-box-effect position-relative overflow-hidden">
                       <Image src="/assets/img/blog/blog-grid-u8.png" alt="Blog Post Blog Grid U" width={326} height={231} className="rounded-3 w-100 img" />
                       <Image src="/assets/img/blog/blog-grid-u8.png" alt="Blog Post Blog Grid U" width={326} height={231} className="rounded-3 w-100 img" />
@@ -247,11 +247,11 @@ export default function BlogArea() {
                       <i className="far fa-clock text-p1"></i> 09 Comment
                     </span>
                     <div className="new-cont-title">
-                      <Link href="/blog-details" className="black visible-slowly-bottom">
+                      <Link href="/" className="black visible-slowly-bottom">
                         Encouraging Creativity at Home and School
                       </Link>
                     </div>
-                    <Link href="/blog-details" className="read-more d-flex align-items-center gap-2">
+                    <Link href="/" className="read-more d-flex align-items-center gap-2">
                       VIEW DETAILS <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
                   </div>
@@ -266,7 +266,7 @@ export default function BlogArea() {
                       <span className="tags-single">Learning</span>
                       <span className="tags-single">06 Min Read</span>
                     </div>
-                    <Link href="/blog-details"
+                    <Link href="/"
                       className="news-image image-box-effect position-relative overflow-hidden">
                       <Image src="/assets/img/blog/blog-grid-u9.png" alt="Blog Post Blog Grid U" width={327} height={231} className="rounded-3 w-100 img" />
                       <Image src="/assets/img/blog/blog-grid-u9.png" alt="Blog Post Blog Grid U" width={327} height={231} className="rounded-3 w-100 img" />
@@ -278,11 +278,11 @@ export default function BlogArea() {
                       <i className="far fa-clock text-p1"></i> 09 Comment
                     </span>
                     <div className="new-cont-title">
-                      <Link href="/blog-details" className="black visible-slowly-bottom">
+                      <Link href="/" className="black visible-slowly-bottom">
                         Outdoor Play Ideas for Active Young Learners
                       </Link>
                     </div>
-                    <Link href="/blog-details" className="read-more d-flex align-items-center gap-2">
+                    <Link href="/" className="read-more d-flex align-items-center gap-2">
                       VIEW DETAILS <i className="fas fa-long-arrow-alt-right"></i>
                     </Link>
                   </div>

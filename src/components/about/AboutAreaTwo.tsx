@@ -12,7 +12,7 @@ export default function AboutAreaTwo() {
           <div className="row g-4">
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-auto wow fadeInUp" data-wow-delay=".3s">
               <div className="cources-single-items hover-flip p-0">
-                <Link href="/blog-details"
+                <Link href="/"
                   className="c-image w-100px icon h-100px mx-auto mb-3 position-relative overflow-hidden">
                   <Image src="/assets/img/child-logo/about-abc1.png" alt="About Abc" width={100} height={100} className="rounded-3 h-100 object-fit-contain w-100" />
                 </Link>
@@ -28,7 +28,7 @@ export default function AboutAreaTwo() {
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-auto wow fadeInUp" data-wow-delay=".4s">
               <div className="cources-single-items hover-flip p-0">
-                <Link href="/blog-details"
+                <Link href="/"
                   className="c-image w-100px icon h-100px mx-auto mb-3 position-relative overflow-hidden">
                   <Image src="/assets/img/child-logo/about-abc2.png" alt="About Abc" width={100} height={100} className="rounded-3 h-100 object-fit-contain w-100" />
                 </Link>
@@ -44,7 +44,7 @@ export default function AboutAreaTwo() {
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-auto wow fadeInUp" data-wow-delay=".5s">
               <div className="cources-single-items hover-flip p-0">
-                <Link href="/blog-details"
+                <Link href="/"
                   className="c-image w-100px icon h-100px mx-auto mb-3 position-relative overflow-hidden">
                   <Image src="/assets/img/child-logo/about-abc3.png" alt="About Abc" width={100} height={100} className="rounded-3 h-100 object-fit-contain w-100 " />
                 </Link>
@@ -60,7 +60,7 @@ export default function AboutAreaTwo() {
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-auto wow fadeInUp" data-wow-delay=".6s">
               <div className="cources-single-items hover-flip p-0">
-                <Link href="/blog-details"
+                <Link href="/"
                   className="c-image w-100px icon h-100px mx-auto mb-3 position-relative overflow-hidden">
                   <Image src="/assets/img/child-logo/about-abc4.png" alt="About Abc" width={100} height={100} className="rounded-3 h-100 object-fit-contain w-100" />
                 </Link>

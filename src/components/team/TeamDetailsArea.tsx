@@ -67,7 +67,7 @@ export default function TeamDetailsArea() {
                   <div className="cont">
                     <span>Location</span>
                     <a href="#">
-                      C/3227 Agla Agongbomey, Cotonou
+                      Agla Agongbomey, Cotonou
                     </a>
                   </div>
                 </div>
@@ -141,7 +141,7 @@ export default function TeamDetailsArea() {
                   </div>
                 </div>
                 <div className="">
-                  <Link href="/contact" className="common_btn d-inline-flex text-nowrap">
+                  <Link href="/#contact" className="common_btn d-inline-flex text-nowrap">
                     Meet the Teacher
                     <span className="icon_wrapper">
                       <i className="fas fa-long-arrow-alt-right"></i>

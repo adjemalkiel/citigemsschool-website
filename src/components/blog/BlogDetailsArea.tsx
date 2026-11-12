@@ -13,7 +13,7 @@ export default function BlogDetailsArea() {
                 <div className="row g-4">
                   <div className="col-12">
                     <div className="blog-standard-item wow fadeInUp" data-wow-delay="0.4s">
-                      <Link href="/blog-details" className="thumb d-block mb-4 w-100">
+                      <Link href="/" className="thumb d-block mb-4 w-100">
                         <Image src="/assets/img/blog/blog-standard-item1.png" alt="Blog Post Blog Standard Item" width={853} height={400} className="w-100" />
                       </Link>
                       <div
@@ -27,7 +27,7 @@ export default function BlogDetailsArea() {
                         </span>
                       </div>
                       <h2 className="mb-2 fw-medium fs-32px fw-bold">
-                        <Link href="/blog-details">
+                        <Link href="/">
                           Fun Learning Activities for Kindergarten Kids
                         </Link>
                       </h2>
@@ -417,7 +417,7 @@ export default function BlogDetailsArea() {
                   <div className="fs-32px border-bottom pb-3 mb-4 fw-bold">Recent Post</div>
                   <div className="d-flex flex-column gap-4">
                     <div className="recent-right-item">
-                      <Link href="/blog-details" className="thumb w-100 mb-3 d-block">
+                      <Link href="/" className="thumb w-100 mb-3 d-block">
                         <Image src="/assets/img/blog/recent-side1.png" alt="Blog Post Recent Side" width={355} height={148} className="w-100 rounded-4" />
                       </Link>
                       <div className="cont">
@@ -425,13 +425,13 @@ export default function BlogDetailsArea() {
                           <i className="fas fa-calendar"></i>
                           April 12, 2026
                         </div>
-                        <Link href="/blog-details" className="fs-20px">
+                        <Link href="/" className="fs-20px">
                           Fun & Interactive Learning Activities for Kindergarten Kids
                         </Link>
                       </div>
                     </div>
                     <div className="recent-right-item">
-                      <Link href="/blog-details" className="thumb w-100 mb-3 d-block">
+                      <Link href="/" className="thumb w-100 mb-3 d-block">
                         <Image src="/assets/img/blog/recent-side2.png" alt="Blog Post Recent Side" width={355} height={148} className="w-100 rounded-4" />
                       </Link>
                       <div className="cont">
@@ -439,13 +439,13 @@ export default function BlogDetailsArea() {
                           <i className="fas fa-calendar"></i>
                           April 12, 2026
                         </div>
-                        <Link href="/blog-details" className="fs-20px">
+                        <Link href="/" className="fs-20px">
                           Why Play-Based Learning Is Essential for Early Education
                         </Link>
                       </div>
                     </div>
                     <div className="recent-right-item">
-                      <Link href="/blog-details" className="thumb w-100 mb-3 d-block">
+                      <Link href="/" className="thumb w-100 mb-3 d-block">
                         <Image src="/assets/img/blog/recent-side3.png" alt="Blog Post Recent Side" width={355} height={148} className="w-100 rounded-4" />
                       </Link>
                       <div className="cont">
@@ -453,7 +453,7 @@ export default function BlogDetailsArea() {
                           <i className="fas fa-calendar"></i>
                           April 12, 2026
                         </div>
-                        <Link href="/blog-details" className="fs-20px">
+                        <Link href="/" className="fs-20px">
                           Healthy Daily Habits Every Kindergarten Child Should Learn
                         </Link>
                       </div>

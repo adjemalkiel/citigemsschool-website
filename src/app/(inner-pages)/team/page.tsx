@@ -1,13 +1,11 @@
-import Team from "@/components/inner-pages/team/Team";
+import HomeHashRedirect from "@/components/common/HomeHashRedirect";
+import { Metadata } from "next";
 
-import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Team Citigems Bilingual School",
-  description: "Team — Citigems Bilingual School.",
-}
+  title: "Citigems Bilingual School",
+  description: "Citigems Bilingual School.",
+};
 
 export default function TeamPage() {
-  return (
-    <Team />
-  )
+  return <HomeHashRedirect hash="about" />;
 }

@@ -28,13 +28,13 @@ export default function HeroAreaThree() {
               </p>
             </div>
             <div className="d-flex justify-content-center flex-sm-nowrap flex-wrap align-items-center gap-md-4 gap-3">
-              <Link href="/contact" className="common_btn text-nowrap">
+              <Link href="/#contact" className="common_btn text-nowrap">
                 Hire a Nanny Today
                 <span className="icon_wrapper">
                   <i className="fas fa-long-arrow-alt-right"></i>
                 </span>
               </Link>
-              <Link href="/about" className="common_btn common_btn__outline-theme3 text-nowrap">
+              <Link href="/#about" className="common_btn common_btn__outline-theme3 text-nowrap">
                 About Our Services
                 <span className="icon_wrapper">
                   <i className="fas fa-long-arrow-alt-right"></i>

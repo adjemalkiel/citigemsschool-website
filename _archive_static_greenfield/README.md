@@ -27,11 +27,11 @@ Assets: `public/citigems-logo.png` (copied from ERP `citigems_custom` public ima
 
 | Role | URL |
 |------|-----|
-| **Parents / élèves (Portail)** | `https://cs.devopsflows.com/login?redirect-to=/edu-portal` |
-| **Personnel (Desk)** | `https://cs.devopsflows.com/login` |
-| **ERP base** | `https://cs.devopsflows.com` |
-| **Marketing (live)** | `https://citigemsschool.devopsflows.com` |
-| **Marketing (canonical brand)** | `https://www.citigemsschool.com` (when DNS points here) |
+| **Parents / élèves (Portail)** | `https://erp.citigemsschool.com/login?redirect-to=/edu-portal` |
+| **Personnel (Desk)** | `https://erp.citigemsschool.com/login` |
+| **ERP base** | `https://erp.citigemsschool.com` |
+| **Marketing (live)** | `https://citigemsschool.com` |
+| **Marketing (canonical brand)** | `https://citigemsschool.com` (when DNS points here) |
 
 After login, ERP role routing (Guardian / Student → `/edu-portal`, staff → `/app`) is owned by the `citigems_custom` app. Marketing CTAs always use `redirect-to=/edu-portal` for the family portal; staff use plain `/login`.
 
